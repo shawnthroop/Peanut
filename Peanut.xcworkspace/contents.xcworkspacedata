@@ -4,4 +4,7 @@
    <FileRef
       location = "container:Peanut.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Peanut.playground">
+   </FileRef>
 </Workspace>
