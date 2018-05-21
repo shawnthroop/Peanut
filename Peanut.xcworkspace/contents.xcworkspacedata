@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:Peanut.xcodeproj">
+      location = "group:Peanut.playground">
    </FileRef>
    <FileRef
-      location = "group:Peanut.playground">
+      location = "container:Peanut.xcodeproj">
    </FileRef>
 </Workspace>
