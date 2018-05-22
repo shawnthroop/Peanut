@@ -337,6 +337,21 @@
 		B559D26820B4C61B002D243D /* Poll.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26720B4C61B002D243D /* Poll.Draft.swift */; };
 		B559D26920B4C61B002D243D /* Poll.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26720B4C61B002D243D /* Poll.Draft.swift */; };
 		B559D26A20B4C61B002D243D /* Poll.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26720B4C61B002D243D /* Poll.Draft.swift */; };
+		B559D26C20B4D0AC002D243D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26B20B4D0AC002D243D /* File.swift */; };
+		B559D26D20B4D0AC002D243D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26B20B4D0AC002D243D /* File.swift */; };
+		B559D26E20B4D0AC002D243D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26B20B4D0AC002D243D /* File.swift */; };
+		B559D27020B4D231002D243D /* File.Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26F20B4D231002D243D /* File.Link.swift */; };
+		B559D27120B4D231002D243D /* File.Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26F20B4D231002D243D /* File.Link.swift */; };
+		B559D27220B4D231002D243D /* File.Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26F20B4D231002D243D /* File.Link.swift */; };
+		B559D27420B4D9B9002D243D /* File.Kind.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27320B4D9B9002D243D /* File.Kind.swift */; };
+		B559D27520B4D9B9002D243D /* File.Kind.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27320B4D9B9002D243D /* File.Kind.swift */; };
+		B559D27620B4D9B9002D243D /* File.Kind.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27320B4D9B9002D243D /* File.Kind.swift */; };
+		B559D27820B4DA4B002D243D /* File.MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27720B4DA4B002D243D /* File.MimeType.swift */; };
+		B559D27920B4DA4B002D243D /* File.MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27720B4DA4B002D243D /* File.MimeType.swift */; };
+		B559D27A20B4DA4B002D243D /* File.MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27720B4DA4B002D243D /* File.MimeType.swift */; };
+		B559D27C20B4E15F002D243D /* File.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27B20B4E15F002D243D /* File.Draft.swift */; };
+		B559D27D20B4E15F002D243D /* File.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27B20B4E15F002D243D /* File.Draft.swift */; };
+		B559D27E20B4E15F002D243D /* File.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27B20B4E15F002D243D /* File.Draft.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -460,6 +475,11 @@
 		B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poll+APIStreamableObject.swift"; sourceTree = "<group>"; };
 		B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poll+APIMutableObject.swift"; sourceTree = "<group>"; };
 		B559D26720B4C61B002D243D /* Poll.Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.Draft.swift; sourceTree = "<group>"; };
+		B559D26B20B4D0AC002D243D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		B559D26F20B4D231002D243D /* File.Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.Link.swift; sourceTree = "<group>"; };
+		B559D27320B4D9B9002D243D /* File.Kind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.Kind.swift; sourceTree = "<group>"; };
+		B559D27720B4DA4B002D243D /* File.MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.MimeType.swift; sourceTree = "<group>"; };
+		B559D27B20B4E15F002D243D /* File.Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.Draft.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -569,6 +589,11 @@
 				B559D26720B4C61B002D243D /* Poll.Draft.swift */,
 				B559D24F20B4C0F7002D243D /* Presence.swift */,
 				B559D25320B4C19F002D243D /* Presence.Status.swift */,
+				B559D26B20B4D0AC002D243D /* File.swift */,
+				B559D26F20B4D231002D243D /* File.Link.swift */,
+				B559D27320B4D9B9002D243D /* File.Kind.swift */,
+				B559D27720B4DA4B002D243D /* File.MimeType.swift */,
+				B559D27B20B4E15F002D243D /* File.Draft.swift */,
 				B559D23F20B4BE86002D243D /* Report.swift */,
 				B559D24320B4BE94002D243D /* Report.Reason.swift */,
 				B53C07C420B33C6500B767ED /* Raw */,
@@ -862,6 +887,7 @@
 				B53C07B520B33AFF00B767ED /* User.Kind.swift in Sources */,
 				B559D22020B35EFD002D243D /* Permissions.Full.swift in Sources */,
 				B559D21420B35E07002D243D /* Channel.Counts.swift in Sources */,
+				B559D27820B4DA4B002D243D /* File.MimeType.swift in Sources */,
 				B559D26420B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080B20B341CD00B767ED /* Post.swift in Sources */,
 				B53C07E720B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
@@ -877,11 +903,14 @@
 				B53C081720B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D320B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06E920B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
+				B559D27420B4D9B9002D243D /* File.Kind.swift in Sources */,
+				B559D27020B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24C20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
 				B53C081320B345CD00B767ED /* Post.Status.swift in Sources */,
 				B559D20C20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081B20B34B5A00B767ED /* Authorization.swift in Sources */,
 				B53C07EF20B33E2600B767ED /* Language.swift in Sources */,
+				B559D27C20B4E15F002D243D /* File.Draft.swift in Sources */,
 				B53C06E320B31A8400B767ED /* Identifier.swift in Sources */,
 				B53C074720B329C500B767ED /* Client.Scope.swift in Sources */,
 				B53C073720B3278100B767ED /* APIMarker.swift in Sources */,
@@ -922,6 +951,7 @@
 				B53C07DF20B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22420B35F2A002D243D /* Permissions.Write.swift in Sources */,
 				B559D24020B4BE86002D243D /* Report.swift in Sources */,
+				B559D26C20B4D0AC002D243D /* File.swift in Sources */,
 				B53C071D20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077420B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C072E20B325D200B767ED /* Optional+Additions.swift in Sources */,
@@ -978,6 +1008,7 @@
 				B53C07B620B33AFF00B767ED /* User.Kind.swift in Sources */,
 				B559D22120B35EFD002D243D /* Permissions.Full.swift in Sources */,
 				B559D21520B35E07002D243D /* Channel.Counts.swift in Sources */,
+				B559D27920B4DA4B002D243D /* File.MimeType.swift in Sources */,
 				B559D26520B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080C20B341CD00B767ED /* Post.swift in Sources */,
 				B53C07E820B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
@@ -993,11 +1024,14 @@
 				B53C081820B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D420B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CB20B3066B00B767ED /* API.swift in Sources */,
+				B559D27520B4D9B9002D243D /* File.Kind.swift in Sources */,
+				B559D27120B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24D20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
 				B53C081420B345CD00B767ED /* Post.Status.swift in Sources */,
 				B559D20D20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081C20B34B5A00B767ED /* Authorization.swift in Sources */,
 				B53C07F020B33E2600B767ED /* Language.swift in Sources */,
+				B559D27D20B4E15F002D243D /* File.Draft.swift in Sources */,
 				B53C06EA20B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
 				B53C074820B329C500B767ED /* Client.Scope.swift in Sources */,
 				B53C073820B3278100B767ED /* APIMarker.swift in Sources */,
@@ -1038,6 +1072,7 @@
 				B53C07E020B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22520B35F2A002D243D /* Permissions.Write.swift in Sources */,
 				B559D24120B4BE86002D243D /* Report.swift in Sources */,
+				B559D26D20B4D0AC002D243D /* File.swift in Sources */,
 				B53C071E20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077520B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C072F20B325D200B767ED /* Optional+Additions.swift in Sources */,
@@ -1094,6 +1129,7 @@
 				B53C07B720B33AFF00B767ED /* User.Kind.swift in Sources */,
 				B559D22220B35EFD002D243D /* Permissions.Full.swift in Sources */,
 				B559D21620B35E07002D243D /* Channel.Counts.swift in Sources */,
+				B559D27A20B4DA4B002D243D /* File.MimeType.swift in Sources */,
 				B559D26620B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080D20B341CD00B767ED /* Post.swift in Sources */,
 				B53C07E920B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
@@ -1109,11 +1145,14 @@
 				B53C081920B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D520B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CC20B3066B00B767ED /* API.swift in Sources */,
+				B559D27620B4D9B9002D243D /* File.Kind.swift in Sources */,
+				B559D27220B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24E20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
 				B53C081520B345CD00B767ED /* Post.Status.swift in Sources */,
 				B559D20E20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081D20B34B5A00B767ED /* Authorization.swift in Sources */,
 				B53C07F120B33E2600B767ED /* Language.swift in Sources */,
+				B559D27E20B4E15F002D243D /* File.Draft.swift in Sources */,
 				B53C06EB20B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
 				B53C074920B329C500B767ED /* Client.Scope.swift in Sources */,
 				B53C073920B3278100B767ED /* APIMarker.swift in Sources */,
@@ -1154,6 +1193,7 @@
 				B53C07E120B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22620B35F2A002D243D /* Permissions.Write.swift in Sources */,
 				B559D24220B4BE86002D243D /* Report.swift in Sources */,
+				B559D26E20B4D0AC002D243D /* File.swift in Sources */,
 				B53C071F20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077620B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C073020B325D200B767ED /* Optional+Additions.swift in Sources */,

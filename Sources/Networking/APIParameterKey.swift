@@ -22,4 +22,5 @@ extension APIParameterKey {
     public static let includeRaw = APIParameterKey("include_raw")
     public static let includeDeleted = APIParameterKey("include_deleted")
     public static let includeClient = APIParameterKey("include_client")
+    public static let includePrivate = APIParameterKey("include_private")
 }

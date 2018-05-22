@@ -21,7 +21,6 @@ public struct Poll: Hashable, Codable {
 
 extension APIParameterKey {
     public static let includeClosed = APIParameterKey("include_closed")
-    public static let includePrivate = APIParameterKey("include_private")
     public static let pollTypes = APIParameterKey("poll_types")
     public static let excludePollTypes = APIParameterKey("exclude_poll_types")
     public static let includePollRaw = APIParameterKey("include_poll_raw")
