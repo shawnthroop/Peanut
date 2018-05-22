@@ -6,5 +6,5 @@
 //
 
 public protocol APIStreamableObject {
-    associatedtype Stream: APIDataRequestable
+    associatedtype Stream: APIObjectRequestable
 }

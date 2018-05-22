@@ -5,7 +5,9 @@
 //  Created by Shawn Throop on 21.05.18.
 //
 
-extension Authorization: APIAuthorizationRequestable {
+extension Authorization: APIRequestable {
+    public typealias Response = APIAuthorizationResponse
+    
     public func endpoint(for api: API) -> APIEndpoint<APIAuthorizationResponse> {
         return APIEndpoint<APIAuthorizationResponse>(api: api, method: .post, path: "oauth/access_token")
     }

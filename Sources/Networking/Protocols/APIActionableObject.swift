@@ -6,5 +6,5 @@
 //
 
 public protocol APIActionableObject {
-    associatedtype Action: APIDataRequestable
+    associatedtype Action: APIObjectRequestable
 }

@@ -1,11 +1,11 @@
 //
-//  APIDataResponse.Data.swift
+//  APIObjectResponse.Data.swift
 //  Peanut
 //
 //  Created by Shawn Throop on 21.05.18.
 //
 
-extension APIDataResponse {
+extension APIObjectResponse {
     
     public enum Data {
         case single(T)
@@ -15,7 +15,7 @@ extension APIDataResponse {
 
 
 
-extension APIDataResponse.Data: Sequence {
+extension APIObjectResponse.Data: Sequence {
     public typealias Element = T
     
     public func makeIterator() -> AnyIterator<Element> {
@@ -29,7 +29,7 @@ extension APIDataResponse.Data: Sequence {
 }
 
 
-extension APIDataResponse.Data: Collection {
+extension APIObjectResponse.Data: Collection {
     public subscript(position: Int) -> Element {
         switch self {
         case .single(let item):
@@ -60,7 +60,7 @@ extension APIDataResponse.Data: Collection {
 }
 
 
-extension APIDataResponse.Data: BidirectionalCollection {
+extension APIObjectResponse.Data: BidirectionalCollection {
     public func index(before i: Int) -> Int {
         guard let prev = items?.index(before: i) else {
             precondition(i == 1, "Index out of range")
@@ -72,8 +72,8 @@ extension APIDataResponse.Data: BidirectionalCollection {
 }
 
 
-extension APIDataResponse.Data: Equatable where Element: Equatable {
-    public static func ==<T>(lhs: APIDataResponse<T>.Data, rhs: APIDataResponse<T>.Data) -> Bool where T: Equatable {
+extension APIObjectResponse.Data: Equatable where Element: Equatable {
+    public static func ==<T>(lhs: APIObjectResponse<T>.Data, rhs: APIObjectResponse<T>.Data) -> Bool where T: Equatable {
         switch (lhs, rhs) {
         case (.single(let item), .single(let otherItem)):
             return item == otherItem
@@ -86,7 +86,7 @@ extension APIDataResponse.Data: Equatable where Element: Equatable {
 }
 
 
-extension APIDataResponse.Data: Decodable where Element: Decodable {
+extension APIObjectResponse.Data: Decodable where Element: Decodable {
     public init(from decoder: Decoder) throws {
         if var unkeyedContainer = try? decoder.unkeyedContainer() {
             var items = [Element]()
@@ -104,7 +104,7 @@ extension APIDataResponse.Data: Decodable where Element: Decodable {
 }
 
 
-extension APIDataResponse.Data: Encodable where Element: Encodable {
+extension APIObjectResponse.Data: Encodable where Element: Encodable {
     public func encode(to encoder: Encoder) throws {
         switch self {
         case .single(let item):
@@ -121,7 +121,7 @@ extension APIDataResponse.Data: Encodable where Element: Encodable {
 }
 
 
-private extension APIDataResponse.Data {
+private extension APIObjectResponse.Data {
     var items: [Element]? {
         if case let .multiple(items) = self {
             return items

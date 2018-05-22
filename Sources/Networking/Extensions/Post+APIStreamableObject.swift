@@ -19,11 +19,12 @@ extension Post: APIStreamableObject {
 }
 
 
-extension Post.Stream: APIDataRequestable {
+extension Post.Stream: APIObjectRequestable {
     public typealias Object = Post
+    public typealias Response = APIObjectResponse<Object>
     
-    public func endpoint(for api: API) -> APIEndpoint<APIDataResponse<Object>> {
-        var result = APIEndpoint<APIDataResponse<Object>>(api: api, path: "")
+    public func endpoint(for api: API) -> APIEndpoint<Response> {
+        var result = APIEndpoint<Response>(api: api, path: "")
         
         switch self {
         case .me:

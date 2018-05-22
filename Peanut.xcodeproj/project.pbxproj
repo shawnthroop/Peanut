@@ -94,12 +94,12 @@
 		B53C075420B32CBF00B767ED /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075320B32CBF00B767ED /* APIResponse.swift */; };
 		B53C075520B32CBF00B767ED /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075320B32CBF00B767ED /* APIResponse.swift */; };
 		B53C075620B32CBF00B767ED /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075320B32CBF00B767ED /* APIResponse.swift */; };
-		B53C075820B32D2800B767ED /* APIDataResponse.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075720B32D2800B767ED /* APIDataResponse.Data.swift */; };
-		B53C075920B32D2800B767ED /* APIDataResponse.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075720B32D2800B767ED /* APIDataResponse.Data.swift */; };
-		B53C075A20B32D2800B767ED /* APIDataResponse.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075720B32D2800B767ED /* APIDataResponse.Data.swift */; };
-		B53C075C20B32D4300B767ED /* APIDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075B20B32D4300B767ED /* APIDataResponse.swift */; };
-		B53C075D20B32D4300B767ED /* APIDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075B20B32D4300B767ED /* APIDataResponse.swift */; };
-		B53C075E20B32D4300B767ED /* APIDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075B20B32D4300B767ED /* APIDataResponse.swift */; };
+		B53C075820B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075720B32D2800B767ED /* APIObjectResponse.Data.swift */; };
+		B53C075920B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075720B32D2800B767ED /* APIObjectResponse.Data.swift */; };
+		B53C075A20B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075720B32D2800B767ED /* APIObjectResponse.Data.swift */; };
+		B53C075C20B32D4300B767ED /* APIObjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075B20B32D4300B767ED /* APIObjectResponse.swift */; };
+		B53C075D20B32D4300B767ED /* APIObjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075B20B32D4300B767ED /* APIObjectResponse.swift */; };
+		B53C075E20B32D4300B767ED /* APIObjectResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075B20B32D4300B767ED /* APIObjectResponse.swift */; };
 		B53C076020B32D9900B767ED /* APIAuthorizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075F20B32D9900B767ED /* APIAuthorizationResponse.swift */; };
 		B53C076120B32D9900B767ED /* APIAuthorizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075F20B32D9900B767ED /* APIAuthorizationResponse.swift */; };
 		B53C076220B32D9900B767ED /* APIAuthorizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C075F20B32D9900B767ED /* APIAuthorizationResponse.swift */; };
@@ -118,12 +118,9 @@
 		B53C077420B337C800B767ED /* APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077320B337C800B767ED /* APIRequestable.swift */; };
 		B53C077520B337C800B767ED /* APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077320B337C800B767ED /* APIRequestable.swift */; };
 		B53C077620B337C800B767ED /* APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077320B337C800B767ED /* APIRequestable.swift */; };
-		B53C077820B337DB00B767ED /* APIDataRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077720B337DB00B767ED /* APIDataRequestable.swift */; };
-		B53C077920B337DB00B767ED /* APIDataRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077720B337DB00B767ED /* APIDataRequestable.swift */; };
-		B53C077A20B337DB00B767ED /* APIDataRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077720B337DB00B767ED /* APIDataRequestable.swift */; };
-		B53C077C20B3385000B767ED /* APIAuthorizationRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077B20B3385000B767ED /* APIAuthorizationRequestable.swift */; };
-		B53C077D20B3385000B767ED /* APIAuthorizationRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077B20B3385000B767ED /* APIAuthorizationRequestable.swift */; };
-		B53C077E20B3385000B767ED /* APIAuthorizationRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077B20B3385000B767ED /* APIAuthorizationRequestable.swift */; };
+		B53C077820B337DB00B767ED /* APIObjectRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077720B337DB00B767ED /* APIObjectRequestable.swift */; };
+		B53C077920B337DB00B767ED /* APIObjectRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077720B337DB00B767ED /* APIObjectRequestable.swift */; };
+		B53C077A20B337DB00B767ED /* APIObjectRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077720B337DB00B767ED /* APIObjectRequestable.swift */; };
 		B53C078020B3388E00B767ED /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077F20B3388E00B767ED /* Content.swift */; };
 		B53C078120B3388E00B767ED /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077F20B3388E00B767ED /* Content.swift */; };
 		B53C078220B3388E00B767ED /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C077F20B3388E00B767ED /* Content.swift */; };
@@ -292,6 +289,54 @@
 		B559D22820B35F4B002D243D /* Permissions.Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22720B35F4B002D243D /* Permissions.Read.swift */; };
 		B559D22920B35F4B002D243D /* Permissions.Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22720B35F4B002D243D /* Permissions.Read.swift */; };
 		B559D22A20B35F4B002D243D /* Permissions.Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22720B35F4B002D243D /* Permissions.Read.swift */; };
+		B559D22C20B3988F002D243D /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22B20B3988F002D243D /* Poll.swift */; };
+		B559D22D20B3988F002D243D /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22B20B3988F002D243D /* Poll.swift */; };
+		B559D22E20B3988F002D243D /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22B20B3988F002D243D /* Poll.swift */; };
+		B559D23020B39907002D243D /* Poll.Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22F20B39907002D243D /* Poll.Duration.swift */; };
+		B559D23120B39907002D243D /* Poll.Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22F20B39907002D243D /* Poll.Duration.swift */; };
+		B559D23220B39907002D243D /* Poll.Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D22F20B39907002D243D /* Poll.Duration.swift */; };
+		B559D23420B399B2002D243D /* Poll.Deadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23320B399B2002D243D /* Poll.Deadline.swift */; };
+		B559D23520B399B2002D243D /* Poll.Deadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23320B399B2002D243D /* Poll.Deadline.swift */; };
+		B559D23620B399B2002D243D /* Poll.Deadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23320B399B2002D243D /* Poll.Deadline.swift */; };
+		B559D23820B39A11002D243D /* Poll.Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23720B39A11002D243D /* Poll.Option.swift */; };
+		B559D23920B39A11002D243D /* Poll.Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23720B39A11002D243D /* Poll.Option.swift */; };
+		B559D23A20B39A11002D243D /* Poll.Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23720B39A11002D243D /* Poll.Option.swift */; };
+		B559D23C20B39A8A002D243D /* Poll.Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23B20B39A8A002D243D /* Poll.Response.swift */; };
+		B559D23D20B39A8A002D243D /* Poll.Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23B20B39A8A002D243D /* Poll.Response.swift */; };
+		B559D23E20B39A8A002D243D /* Poll.Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23B20B39A8A002D243D /* Poll.Response.swift */; };
+		B559D24020B4BE86002D243D /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23F20B4BE86002D243D /* Report.swift */; };
+		B559D24120B4BE86002D243D /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23F20B4BE86002D243D /* Report.swift */; };
+		B559D24220B4BE86002D243D /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D23F20B4BE86002D243D /* Report.swift */; };
+		B559D24420B4BE94002D243D /* Report.Reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24320B4BE94002D243D /* Report.Reason.swift */; };
+		B559D24520B4BE94002D243D /* Report.Reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24320B4BE94002D243D /* Report.Reason.swift */; };
+		B559D24620B4BE94002D243D /* Report.Reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24320B4BE94002D243D /* Report.Reason.swift */; };
+		B559D24820B4BEF6002D243D /* APIReportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24720B4BEF6002D243D /* APIReportResponse.swift */; };
+		B559D24920B4BEF6002D243D /* APIReportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24720B4BEF6002D243D /* APIReportResponse.swift */; };
+		B559D24A20B4BEF6002D243D /* APIReportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24720B4BEF6002D243D /* APIReportResponse.swift */; };
+		B559D24C20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24B20B4BFAD002D243D /* Report+APIRequestable.swift */; };
+		B559D24D20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24B20B4BFAD002D243D /* Report+APIRequestable.swift */; };
+		B559D24E20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24B20B4BFAD002D243D /* Report+APIRequestable.swift */; };
+		B559D25020B4C0F7002D243D /* Presence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24F20B4C0F7002D243D /* Presence.swift */; };
+		B559D25120B4C0F7002D243D /* Presence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24F20B4C0F7002D243D /* Presence.swift */; };
+		B559D25220B4C0F7002D243D /* Presence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D24F20B4C0F7002D243D /* Presence.swift */; };
+		B559D25420B4C19F002D243D /* Presence.Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25320B4C19F002D243D /* Presence.Status.swift */; };
+		B559D25520B4C19F002D243D /* Presence.Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25320B4C19F002D243D /* Presence.Status.swift */; };
+		B559D25620B4C19F002D243D /* Presence.Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25320B4C19F002D243D /* Presence.Status.swift */; };
+		B559D25820B4C244002D243D /* Presence+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25720B4C244002D243D /* Presence+APIMutableObject.swift */; };
+		B559D25920B4C244002D243D /* Presence+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25720B4C244002D243D /* Presence+APIMutableObject.swift */; };
+		B559D25A20B4C244002D243D /* Presence+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25720B4C244002D243D /* Presence+APIMutableObject.swift */; };
+		B559D25C20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25B20B4C25A002D243D /* Presence+APIStreamableObject.swift */; };
+		B559D25D20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25B20B4C25A002D243D /* Presence+APIStreamableObject.swift */; };
+		B559D25E20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25B20B4C25A002D243D /* Presence+APIStreamableObject.swift */; };
+		B559D26020B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */; };
+		B559D26120B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */; };
+		B559D26220B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */; };
+		B559D26420B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */; };
+		B559D26520B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */; };
+		B559D26620B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */; };
+		B559D26820B4C61B002D243D /* Poll.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26720B4C61B002D243D /* Poll.Draft.swift */; };
+		B559D26920B4C61B002D243D /* Poll.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26720B4C61B002D243D /* Poll.Draft.swift */; };
+		B559D26A20B4C61B002D243D /* Poll.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D26720B4C61B002D243D /* Poll.Draft.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -334,16 +379,15 @@
 		B53C074620B329C500B767ED /* Client.Scope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.Scope.swift; sourceTree = "<group>"; };
 		B53C074F20B32C8200B767ED /* APIMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMeta.swift; sourceTree = "<group>"; };
 		B53C075320B32CBF00B767ED /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
-		B53C075720B32D2800B767ED /* APIDataResponse.Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataResponse.Data.swift; sourceTree = "<group>"; };
-		B53C075B20B32D4300B767ED /* APIDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataResponse.swift; sourceTree = "<group>"; };
+		B53C075720B32D2800B767ED /* APIObjectResponse.Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIObjectResponse.Data.swift; sourceTree = "<group>"; };
+		B53C075B20B32D4300B767ED /* APIObjectResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIObjectResponse.swift; sourceTree = "<group>"; };
 		B53C075F20B32D9900B767ED /* APIAuthorizationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthorizationResponse.swift; sourceTree = "<group>"; };
 		B53C076320B32DB400B767ED /* APIAuthorizationResponse.Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthorizationResponse.Token.swift; sourceTree = "<group>"; };
 		B53C076720B32DCE00B767ED /* APIAuthorizationResponse.Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthorizationResponse.Storage.swift; sourceTree = "<group>"; };
 		B53C076B20B32E0300B767ED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B53C076F20B32EA600B767ED /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		B53C077320B337C800B767ED /* APIRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestable.swift; sourceTree = "<group>"; };
-		B53C077720B337DB00B767ED /* APIDataRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDataRequestable.swift; sourceTree = "<group>"; };
-		B53C077B20B3385000B767ED /* APIAuthorizationRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthorizationRequestable.swift; sourceTree = "<group>"; };
+		B53C077720B337DB00B767ED /* APIObjectRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIObjectRequestable.swift; sourceTree = "<group>"; };
 		B53C077F20B3388E00B767ED /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		B53C078320B338A700B767ED /* String+SurrogarPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SurrogarPair.swift"; sourceTree = "<group>"; };
 		B53C078820B3392200B767ED /* SurrogatePairAdjustable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurrogatePairAdjustable.swift; sourceTree = "<group>"; };
@@ -400,6 +444,22 @@
 		B559D21F20B35EFD002D243D /* Permissions.Full.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.Full.swift; sourceTree = "<group>"; };
 		B559D22320B35F2A002D243D /* Permissions.Write.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.Write.swift; sourceTree = "<group>"; };
 		B559D22720B35F4B002D243D /* Permissions.Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.Read.swift; sourceTree = "<group>"; };
+		B559D22B20B3988F002D243D /* Poll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
+		B559D22F20B39907002D243D /* Poll.Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.Duration.swift; sourceTree = "<group>"; };
+		B559D23320B399B2002D243D /* Poll.Deadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.Deadline.swift; sourceTree = "<group>"; };
+		B559D23720B39A11002D243D /* Poll.Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.Option.swift; sourceTree = "<group>"; };
+		B559D23B20B39A8A002D243D /* Poll.Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.Response.swift; sourceTree = "<group>"; };
+		B559D23F20B4BE86002D243D /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		B559D24320B4BE94002D243D /* Report.Reason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.Reason.swift; sourceTree = "<group>"; };
+		B559D24720B4BEF6002D243D /* APIReportResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIReportResponse.swift; sourceTree = "<group>"; };
+		B559D24B20B4BFAD002D243D /* Report+APIRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Report+APIRequestable.swift"; sourceTree = "<group>"; };
+		B559D24F20B4C0F7002D243D /* Presence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presence.swift; sourceTree = "<group>"; };
+		B559D25320B4C19F002D243D /* Presence.Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presence.Status.swift; sourceTree = "<group>"; };
+		B559D25720B4C244002D243D /* Presence+APIMutableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presence+APIMutableObject.swift"; sourceTree = "<group>"; };
+		B559D25B20B4C25A002D243D /* Presence+APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presence+APIStreamableObject.swift"; sourceTree = "<group>"; };
+		B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poll+APIStreamableObject.swift"; sourceTree = "<group>"; };
+		B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poll+APIMutableObject.swift"; sourceTree = "<group>"; };
+		B559D26720B4C61B002D243D /* Poll.Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.Draft.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -501,6 +561,16 @@
 				B53C073E20B327B900B767ED /* Channel.swift */,
 				B559D20F20B35DFD002D243D /* Channel.Status.swift */,
 				B559D21320B35E07002D243D /* Channel.Counts.swift */,
+				B559D22B20B3988F002D243D /* Poll.swift */,
+				B559D22F20B39907002D243D /* Poll.Duration.swift */,
+				B559D23320B399B2002D243D /* Poll.Deadline.swift */,
+				B559D23720B39A11002D243D /* Poll.Option.swift */,
+				B559D23B20B39A8A002D243D /* Poll.Response.swift */,
+				B559D26720B4C61B002D243D /* Poll.Draft.swift */,
+				B559D24F20B4C0F7002D243D /* Presence.swift */,
+				B559D25320B4C19F002D243D /* Presence.Status.swift */,
+				B559D23F20B4BE86002D243D /* Report.swift */,
+				B559D24320B4BE94002D243D /* Report.Reason.swift */,
 				B53C07C420B33C6500B767ED /* Raw */,
 			);
 			path = Model;
@@ -530,11 +600,12 @@
 				B53C072020B323F900B767ED /* APIEndpoint.swift */,
 				B53C073220B3269100B767ED /* APIRequest.swift */,
 				B53C075320B32CBF00B767ED /* APIResponse.swift */,
-				B53C075B20B32D4300B767ED /* APIDataResponse.swift */,
-				B53C075720B32D2800B767ED /* APIDataResponse.Data.swift */,
+				B53C075B20B32D4300B767ED /* APIObjectResponse.swift */,
+				B53C075720B32D2800B767ED /* APIObjectResponse.Data.swift */,
 				B53C075F20B32D9900B767ED /* APIAuthorizationResponse.swift */,
 				B53C076320B32DB400B767ED /* APIAuthorizationResponse.Token.swift */,
 				B53C076720B32DCE00B767ED /* APIAuthorizationResponse.Storage.swift */,
+				B559D24720B4BEF6002D243D /* APIReportResponse.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -544,8 +615,7 @@
 			children = (
 				B53C072520B324CA00B767ED /* APIDefaultParametersProvider.swift */,
 				B53C077320B337C800B767ED /* APIRequestable.swift */,
-				B53C077720B337DB00B767ED /* APIDataRequestable.swift */,
-				B53C077B20B3385000B767ED /* APIAuthorizationRequestable.swift */,
+				B53C077720B337DB00B767ED /* APIObjectRequestable.swift */,
 				B53C081F20B34BBA00B767ED /* APIMutableObject.swift */,
 				B53C082720B3531A00B767ED /* APIStreamableObject.swift */,
 				B559D1F720B35B8D002D243D /* APIActionableObject.swift */,
@@ -609,11 +679,16 @@
 			isa = PBXGroup;
 			children = (
 				B53C082320B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift */,
+				B559D24B20B4BFAD002D243D /* Report+APIRequestable.swift */,
 				B53C082F20B353B500B767ED /* User+APIStreamableObject.swift */,
 				B559D1F320B35B6A002D243D /* User+APIActionableObject.swift */,
+				B559D20720B35C61002D243D /* Post+APIMutableObject.swift */,
 				B559D1FB20B35BFB002D243D /* Post+APIStreamableObject.swift */,
 				B559D20320B35C3C002D243D /* Post+APIActionableObject.swift */,
-				B559D20720B35C61002D243D /* Post+APIMutableObject.swift */,
+				B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */,
+				B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */,
+				B559D25720B4C244002D243D /* Presence+APIMutableObject.swift */,
+				B559D25B20B4C25A002D243D /* Presence+APIStreamableObject.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -785,9 +860,9 @@
 				B53C07F320B33E4400B767ED /* OembedValueType.swift in Sources */,
 				B559D20420B35C3C002D243D /* Post+APIActionableObject.swift in Sources */,
 				B53C07B520B33AFF00B767ED /* User.Kind.swift in Sources */,
-				B53C077C20B3385000B767ED /* APIAuthorizationRequestable.swift in Sources */,
 				B559D22020B35EFD002D243D /* Permissions.Full.swift in Sources */,
 				B559D21420B35E07002D243D /* Channel.Counts.swift in Sources */,
+				B559D26420B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080B20B341CD00B767ED /* Post.swift in Sources */,
 				B53C07E720B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
 				B53C074320B3297E00B767ED /* Client.swift in Sources */,
@@ -802,6 +877,7 @@
 				B53C081720B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D320B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06E920B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
+				B559D24C20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
 				B53C081320B345CD00B767ED /* Post.Status.swift in Sources */,
 				B559D20C20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081B20B34B5A00B767ED /* Authorization.swift in Sources */,
@@ -819,16 +895,20 @@
 				B53C080F20B345B600B767ED /* Post.Counts.swift in Sources */,
 				B559D21020B35DFD002D243D /* Channel.Status.swift in Sources */,
 				B53C071520B322D100B767ED /* APIFormat.swift in Sources */,
+				B559D24420B4BE94002D243D /* Report.Reason.swift in Sources */,
 				B53C082820B3531A00B767ED /* APIStreamableObject.swift in Sources */,
 				B53C076C20B32E0300B767ED /* User.swift in Sources */,
-				B53C075820B32D2800B767ED /* APIDataResponse.Data.swift in Sources */,
+				B53C075820B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */,
 				B559D1FC20B35BFB002D243D /* Post+APIStreamableObject.swift in Sources */,
 				B53C07B920B33B2E00B767ED /* User.Values.swift in Sources */,
 				B53C070520B321CC00B767ED /* APIParameterKey.swift in Sources */,
 				B53C06F120B31EEF00B767ED /* UniquelyIdentifiable.swift in Sources */,
+				B559D23820B39A11002D243D /* Poll.Option.swift in Sources */,
 				B53C06F520B31F5C00B767ED /* APIStatusCode.swift in Sources */,
 				B53C07E320B33DC900B767ED /* RawContainerType.swift in Sources */,
+				B559D25C20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072620B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
+				B559D23020B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080720B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FD20B3213400B767ED /* APIResponseError.swift in Sources */,
 				B559D21820B35E68002D243D /* Message.swift in Sources */,
@@ -836,33 +916,43 @@
 				B53C076020B32D9900B767ED /* APIAuthorizationResponse.swift in Sources */,
 				B53C078920B3392200B767ED /* SurrogatePairAdjustable.swift in Sources */,
 				B53C073B20B3279000B767ED /* APIMarker.Name.swift in Sources */,
+				B559D23C20B39A8A002D243D /* Poll.Response.swift in Sources */,
 				B53C076420B32DB400B767ED /* APIAuthorizationResponse.Token.swift in Sources */,
 				B53C07A120B339F300B767ED /* Entities.swift in Sources */,
 				B53C07DF20B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22420B35F2A002D243D /* Permissions.Write.swift in Sources */,
+				B559D24020B4BE86002D243D /* Report.swift in Sources */,
 				B53C071D20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077420B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C072E20B325D200B767ED /* Optional+Additions.swift in Sources */,
 				B53C06CA20B3066B00B767ED /* API.swift in Sources */,
-				B53C075C20B32D4300B767ED /* APIDataResponse.swift in Sources */,
+				B559D25020B4C0F7002D243D /* Presence.swift in Sources */,
+				B559D25820B4C244002D243D /* Presence+APIMutableObject.swift in Sources */,
+				B559D26820B4C61B002D243D /* Poll.Draft.swift in Sources */,
+				B53C075C20B32D4300B767ED /* APIObjectResponse.swift in Sources */,
 				B53C071920B3231A00B767ED /* APIDecodingCotext.swift in Sources */,
 				B53C079920B339B600B767ED /* Link.swift in Sources */,
 				B53C071120B3228B00B767ED /* APIPayload.swift in Sources */,
 				B53C078D20B3395800B767ED /* Content.Range.swift in Sources */,
+				B559D26020B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */,
 				B53C082420B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift in Sources */,
 				B53C07CB20B33CB400B767ED /* Raw.swift in Sources */,
 				B53C06F920B320D200B767ED /* APIError.swift in Sources */,
 				B53C072A20B3251800B767ED /* APIPagination.swift in Sources */,
+				B559D23420B399B2002D243D /* Poll.Deadline.swift in Sources */,
+				B559D24820B4BEF6002D243D /* APIReportResponse.swift in Sources */,
 				B53C07AD20B33A5300B767ED /* User.Status.swift in Sources */,
 				B53C077020B32EA600B767ED /* Source.swift in Sources */,
 				B53C07C120B33B9B00B767ED /* Image.swift in Sources */,
 				B53C072120B323F900B767ED /* APIEndpoint.swift in Sources */,
 				B53C082020B34BBA00B767ED /* APIMutableObject.swift in Sources */,
 				B53C079120B3398500B767ED /* Entity.swift in Sources */,
+				B559D25420B4C19F002D243D /* Presence.Status.swift in Sources */,
 				B559D21C20B35EE1002D243D /* Permissions.swift in Sources */,
 				B53C07A520B33A2F00B767ED /* User.Verification.swift in Sources */,
 				B53C070120B3216C00B767ED /* APIMethod.swift in Sources */,
-				B53C077820B337DB00B767ED /* APIDataRequestable.swift in Sources */,
+				B559D22C20B3988F002D243D /* Poll.swift in Sources */,
+				B53C077820B337DB00B767ED /* APIObjectRequestable.swift in Sources */,
 				B53C080320B33EF700B767ED /* OembedRich.swift in Sources */,
 				B53C070920B321F600B767ED /* APIParameterValue.swift in Sources */,
 				B53C07D720B33D3300B767ED /* RawCodable.swift in Sources */,
@@ -886,9 +976,9 @@
 				B53C07F420B33E4400B767ED /* OembedValueType.swift in Sources */,
 				B559D20520B35C3C002D243D /* Post+APIActionableObject.swift in Sources */,
 				B53C07B620B33AFF00B767ED /* User.Kind.swift in Sources */,
-				B53C077D20B3385000B767ED /* APIAuthorizationRequestable.swift in Sources */,
 				B559D22120B35EFD002D243D /* Permissions.Full.swift in Sources */,
 				B559D21520B35E07002D243D /* Channel.Counts.swift in Sources */,
+				B559D26520B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080C20B341CD00B767ED /* Post.swift in Sources */,
 				B53C07E820B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
 				B53C074420B3297E00B767ED /* Client.swift in Sources */,
@@ -903,6 +993,7 @@
 				B53C081820B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D420B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CB20B3066B00B767ED /* API.swift in Sources */,
+				B559D24D20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
 				B53C081420B345CD00B767ED /* Post.Status.swift in Sources */,
 				B559D20D20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081C20B34B5A00B767ED /* Authorization.swift in Sources */,
@@ -920,16 +1011,20 @@
 				B53C081020B345B600B767ED /* Post.Counts.swift in Sources */,
 				B559D21120B35DFD002D243D /* Channel.Status.swift in Sources */,
 				B53C071620B322D100B767ED /* APIFormat.swift in Sources */,
+				B559D24520B4BE94002D243D /* Report.Reason.swift in Sources */,
 				B53C082920B3531A00B767ED /* APIStreamableObject.swift in Sources */,
 				B53C076D20B32E0300B767ED /* User.swift in Sources */,
-				B53C075920B32D2800B767ED /* APIDataResponse.Data.swift in Sources */,
+				B53C075920B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */,
 				B559D1FD20B35BFB002D243D /* Post+APIStreamableObject.swift in Sources */,
 				B53C07BA20B33B2E00B767ED /* User.Values.swift in Sources */,
 				B53C070620B321CC00B767ED /* APIParameterKey.swift in Sources */,
 				B53C06F220B31EEF00B767ED /* UniquelyIdentifiable.swift in Sources */,
+				B559D23920B39A11002D243D /* Poll.Option.swift in Sources */,
 				B53C06F620B31F5C00B767ED /* APIStatusCode.swift in Sources */,
 				B53C07E420B33DC900B767ED /* RawContainerType.swift in Sources */,
+				B559D25D20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072720B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
+				B559D23120B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080820B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FE20B3213400B767ED /* APIResponseError.swift in Sources */,
 				B559D21920B35E68002D243D /* Message.swift in Sources */,
@@ -937,33 +1032,43 @@
 				B53C076120B32D9900B767ED /* APIAuthorizationResponse.swift in Sources */,
 				B53C078A20B3392200B767ED /* SurrogatePairAdjustable.swift in Sources */,
 				B53C073C20B3279000B767ED /* APIMarker.Name.swift in Sources */,
+				B559D23D20B39A8A002D243D /* Poll.Response.swift in Sources */,
 				B53C076520B32DB400B767ED /* APIAuthorizationResponse.Token.swift in Sources */,
 				B53C07A220B339F300B767ED /* Entities.swift in Sources */,
 				B53C07E020B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22520B35F2A002D243D /* Permissions.Write.swift in Sources */,
+				B559D24120B4BE86002D243D /* Report.swift in Sources */,
 				B53C071E20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077520B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C072F20B325D200B767ED /* Optional+Additions.swift in Sources */,
 				B53C06E620B31AA100B767ED /* Identifiable.swift in Sources */,
-				B53C075D20B32D4300B767ED /* APIDataResponse.swift in Sources */,
+				B559D25120B4C0F7002D243D /* Presence.swift in Sources */,
+				B559D25920B4C244002D243D /* Presence+APIMutableObject.swift in Sources */,
+				B559D26920B4C61B002D243D /* Poll.Draft.swift in Sources */,
+				B53C075D20B32D4300B767ED /* APIObjectResponse.swift in Sources */,
 				B53C071A20B3231A00B767ED /* APIDecodingCotext.swift in Sources */,
 				B53C079A20B339B600B767ED /* Link.swift in Sources */,
 				B53C071220B3228B00B767ED /* APIPayload.swift in Sources */,
 				B53C078E20B3395800B767ED /* Content.Range.swift in Sources */,
+				B559D26120B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */,
 				B53C082520B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift in Sources */,
 				B53C07CC20B33CB400B767ED /* Raw.swift in Sources */,
 				B53C06FA20B320D200B767ED /* APIError.swift in Sources */,
 				B53C072B20B3251800B767ED /* APIPagination.swift in Sources */,
+				B559D23520B399B2002D243D /* Poll.Deadline.swift in Sources */,
+				B559D24920B4BEF6002D243D /* APIReportResponse.swift in Sources */,
 				B53C07AE20B33A5300B767ED /* User.Status.swift in Sources */,
 				B53C077120B32EA600B767ED /* Source.swift in Sources */,
 				B53C07C220B33B9B00B767ED /* Image.swift in Sources */,
 				B53C072220B323F900B767ED /* APIEndpoint.swift in Sources */,
 				B53C082120B34BBA00B767ED /* APIMutableObject.swift in Sources */,
 				B53C079220B3398500B767ED /* Entity.swift in Sources */,
+				B559D25520B4C19F002D243D /* Presence.Status.swift in Sources */,
 				B559D21D20B35EE1002D243D /* Permissions.swift in Sources */,
 				B53C07A620B33A2F00B767ED /* User.Verification.swift in Sources */,
 				B53C070220B3216C00B767ED /* APIMethod.swift in Sources */,
-				B53C077920B337DB00B767ED /* APIDataRequestable.swift in Sources */,
+				B559D22D20B3988F002D243D /* Poll.swift in Sources */,
+				B53C077920B337DB00B767ED /* APIObjectRequestable.swift in Sources */,
 				B53C080420B33EF700B767ED /* OembedRich.swift in Sources */,
 				B53C070A20B321F600B767ED /* APIParameterValue.swift in Sources */,
 				B53C07D820B33D3300B767ED /* RawCodable.swift in Sources */,
@@ -987,9 +1092,9 @@
 				B53C07F520B33E4400B767ED /* OembedValueType.swift in Sources */,
 				B559D20620B35C3C002D243D /* Post+APIActionableObject.swift in Sources */,
 				B53C07B720B33AFF00B767ED /* User.Kind.swift in Sources */,
-				B53C077E20B3385000B767ED /* APIAuthorizationRequestable.swift in Sources */,
 				B559D22220B35EFD002D243D /* Permissions.Full.swift in Sources */,
 				B559D21620B35E07002D243D /* Channel.Counts.swift in Sources */,
+				B559D26620B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080D20B341CD00B767ED /* Post.swift in Sources */,
 				B53C07E920B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
 				B53C074520B3297E00B767ED /* Client.swift in Sources */,
@@ -1004,6 +1109,7 @@
 				B53C081920B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D520B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CC20B3066B00B767ED /* API.swift in Sources */,
+				B559D24E20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
 				B53C081520B345CD00B767ED /* Post.Status.swift in Sources */,
 				B559D20E20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081D20B34B5A00B767ED /* Authorization.swift in Sources */,
@@ -1021,16 +1127,20 @@
 				B53C081120B345B600B767ED /* Post.Counts.swift in Sources */,
 				B559D21220B35DFD002D243D /* Channel.Status.swift in Sources */,
 				B53C071720B322D100B767ED /* APIFormat.swift in Sources */,
+				B559D24620B4BE94002D243D /* Report.Reason.swift in Sources */,
 				B53C082A20B3531A00B767ED /* APIStreamableObject.swift in Sources */,
 				B53C076E20B32E0300B767ED /* User.swift in Sources */,
-				B53C075A20B32D2800B767ED /* APIDataResponse.Data.swift in Sources */,
+				B53C075A20B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */,
 				B559D1FE20B35BFB002D243D /* Post+APIStreamableObject.swift in Sources */,
 				B53C07BB20B33B2E00B767ED /* User.Values.swift in Sources */,
 				B53C070720B321CC00B767ED /* APIParameterKey.swift in Sources */,
 				B53C06F320B31EEF00B767ED /* UniquelyIdentifiable.swift in Sources */,
+				B559D23A20B39A11002D243D /* Poll.Option.swift in Sources */,
 				B53C06F720B31F5C00B767ED /* APIStatusCode.swift in Sources */,
 				B53C07E520B33DC900B767ED /* RawContainerType.swift in Sources */,
+				B559D25E20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072820B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
+				B559D23220B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080920B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FF20B3213400B767ED /* APIResponseError.swift in Sources */,
 				B559D21A20B35E68002D243D /* Message.swift in Sources */,
@@ -1038,33 +1148,43 @@
 				B53C076220B32D9900B767ED /* APIAuthorizationResponse.swift in Sources */,
 				B53C078B20B3392200B767ED /* SurrogatePairAdjustable.swift in Sources */,
 				B53C073D20B3279000B767ED /* APIMarker.Name.swift in Sources */,
+				B559D23E20B39A8A002D243D /* Poll.Response.swift in Sources */,
 				B53C076620B32DB400B767ED /* APIAuthorizationResponse.Token.swift in Sources */,
 				B53C07A320B339F300B767ED /* Entities.swift in Sources */,
 				B53C07E120B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22620B35F2A002D243D /* Permissions.Write.swift in Sources */,
+				B559D24220B4BE86002D243D /* Report.swift in Sources */,
 				B53C071F20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077620B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C073020B325D200B767ED /* Optional+Additions.swift in Sources */,
 				B53C06E720B31AA100B767ED /* Identifiable.swift in Sources */,
-				B53C075E20B32D4300B767ED /* APIDataResponse.swift in Sources */,
+				B559D25220B4C0F7002D243D /* Presence.swift in Sources */,
+				B559D25A20B4C244002D243D /* Presence+APIMutableObject.swift in Sources */,
+				B559D26A20B4C61B002D243D /* Poll.Draft.swift in Sources */,
+				B53C075E20B32D4300B767ED /* APIObjectResponse.swift in Sources */,
 				B53C071B20B3231A00B767ED /* APIDecodingCotext.swift in Sources */,
 				B53C079B20B339B600B767ED /* Link.swift in Sources */,
 				B53C071320B3228B00B767ED /* APIPayload.swift in Sources */,
 				B53C078F20B3395800B767ED /* Content.Range.swift in Sources */,
+				B559D26220B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */,
 				B53C082620B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift in Sources */,
 				B53C07CD20B33CB400B767ED /* Raw.swift in Sources */,
 				B53C06FB20B320D200B767ED /* APIError.swift in Sources */,
 				B53C072C20B3251800B767ED /* APIPagination.swift in Sources */,
+				B559D23620B399B2002D243D /* Poll.Deadline.swift in Sources */,
+				B559D24A20B4BEF6002D243D /* APIReportResponse.swift in Sources */,
 				B53C07AF20B33A5300B767ED /* User.Status.swift in Sources */,
 				B53C077220B32EA600B767ED /* Source.swift in Sources */,
 				B53C07C320B33B9B00B767ED /* Image.swift in Sources */,
 				B53C072320B323F900B767ED /* APIEndpoint.swift in Sources */,
 				B53C082220B34BBA00B767ED /* APIMutableObject.swift in Sources */,
 				B53C079320B3398500B767ED /* Entity.swift in Sources */,
+				B559D25620B4C19F002D243D /* Presence.Status.swift in Sources */,
 				B559D21E20B35EE1002D243D /* Permissions.swift in Sources */,
 				B53C07A720B33A2F00B767ED /* User.Verification.swift in Sources */,
 				B53C070320B3216C00B767ED /* APIMethod.swift in Sources */,
-				B53C077A20B337DB00B767ED /* APIDataRequestable.swift in Sources */,
+				B559D22E20B3988F002D243D /* Poll.swift in Sources */,
+				B53C077A20B337DB00B767ED /* APIObjectRequestable.swift in Sources */,
 				B53C080520B33EF700B767ED /* OembedRich.swift in Sources */,
 				B53C070B20B321F600B767ED /* APIParameterValue.swift in Sources */,
 				B53C07D920B33D3300B767ED /* RawCodable.swift in Sources */,

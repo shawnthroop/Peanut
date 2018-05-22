@@ -14,11 +14,12 @@ extension Post: APIMutableObject {
 }
 
 
-extension Post.Mutation: APIDataRequestable {
+extension Post.Mutation: APIObjectRequestable {
     public typealias Object = Post
+    public typealias Response = APIObjectResponse<Object>
     
-    public func endpoint(for api: API) -> APIEndpoint<APIDataResponse<Object>> {
-        var result = APIEndpoint<APIDataResponse<Object>>(api: api, path: "posts")
+    public func endpoint(for api: API) -> APIEndpoint<Response> {
+        var result = APIEndpoint<Response>(api: api, path: "posts")
         
         switch self {
         case .publish(_, let updatePersonalStreamMarker):

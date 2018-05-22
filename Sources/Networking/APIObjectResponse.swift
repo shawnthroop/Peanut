@@ -1,17 +1,17 @@
 //
-//  APIDataResponse.swift
+//  APIObjectResponse.swift
 //  Peanut
 //
 //  Created by Shawn Throop on 21.05.18.
 //
 
-public struct APIDataResponse<T> {
+public struct APIObjectResponse<T> {
     public var meta: APIMeta
-    public var data: APIDataResponse<T>.Data
+    public var data: APIObjectResponse<T>.Data
 }
 
 
-extension APIDataResponse: Decodable where T: Decodable {
+extension APIObjectResponse: Decodable where T: Decodable {
     public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         meta = try container.decode(APIMeta.self, forKey: .meta)
@@ -20,11 +20,11 @@ extension APIDataResponse: Decodable where T: Decodable {
 }
 
 
-extension APIDataResponse: APIDefaultParametersProvider where T: APIDefaultParametersProvider {
+extension APIObjectResponse: APIDefaultParametersProvider where T: APIDefaultParametersProvider {
     public static var defaultParameters: APIParameters { return T.defaultParameters }
 }
 
-private extension APIDataResponse {
+private extension APIObjectResponse {
     enum CodingKeys: CodingKey {
         case meta
         case data

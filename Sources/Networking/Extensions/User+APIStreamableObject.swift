@@ -18,11 +18,12 @@ extension User: APIStreamableObject {
 }
 
 
-extension User.Stream: APIDataRequestable {
+extension User.Stream: APIObjectRequestable {
     public typealias Object = User
+    public typealias Response = APIObjectResponse<Object>
     
-    public func endpoint(for api: API) -> APIEndpoint<APIDataResponse<Object>> {
-        var result = APIEndpoint<APIDataResponse<Object>>(api: api, path: "users")
+    public func endpoint(for api: API) -> APIEndpoint<Response> {
+        var result = APIEndpoint<Response>(api: api, path: "users")
         
         switch self {
         case .user(let id):

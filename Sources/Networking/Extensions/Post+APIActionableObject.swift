@@ -16,10 +16,11 @@ extension Post: APIActionableObject {
 }
 
 
-extension Post.Action: APIDataRequestable {
+extension Post.Action: APIObjectRequestable {
     public typealias Object = Post
+    public typealias Response = APIObjectResponse<Object>
     
-    public func endpoint(for api: API) -> APIEndpoint<APIDataResponse<Object>> {
+    public func endpoint(for api: API) -> APIEndpoint<Response> {
         var values: (id: Post.ID, method: APIMethod, suffix: String)
         
         switch self {
@@ -33,7 +34,7 @@ extension Post.Action: APIDataRequestable {
             values = (id, .delete, "repost")
         }
         
-        var result = APIEndpoint<APIDataResponse<Object>>(api: api, method: values.method, path: "posts")
+        var result = APIEndpoint<Response>(api: api, method: values.method, path: "posts")
         result.append(values.id.rawValue, values.suffix)
         
         return result

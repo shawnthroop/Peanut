@@ -6,5 +6,5 @@
 //
 
 public protocol APIMutableObject {
-    associatedtype Mutation: APIDataRequestable
+    associatedtype Mutation: APIObjectRequestable
 }
