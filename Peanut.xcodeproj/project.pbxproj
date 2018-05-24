@@ -352,6 +352,21 @@
 		B559D27C20B4E15F002D243D /* File.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27B20B4E15F002D243D /* File.Draft.swift */; };
 		B559D27D20B4E15F002D243D /* File.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27B20B4E15F002D243D /* File.Draft.swift */; };
 		B559D27E20B4E15F002D243D /* File.Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D27B20B4E15F002D243D /* File.Draft.swift */; };
+		B559D28420B70B8F002D243D /* File.Derivative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28320B70B8F002D243D /* File.Derivative.swift */; };
+		B559D28520B70B8F002D243D /* File.Derivative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28320B70B8F002D243D /* File.Derivative.swift */; };
+		B559D28620B70B8F002D243D /* File.Derivative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28320B70B8F002D243D /* File.Derivative.swift */; };
+		B559D28820B70C47002D243D /* File.ImageInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28720B70C47002D243D /* File.ImageInformation.swift */; };
+		B559D28920B70C47002D243D /* File.ImageInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28720B70C47002D243D /* File.ImageInformation.swift */; };
+		B559D28A20B70C47002D243D /* File.ImageInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28720B70C47002D243D /* File.ImageInformation.swift */; };
+		B559D28C20B70CEC002D243D /* File.AudioInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28B20B70CEC002D243D /* File.AudioInformation.swift */; };
+		B559D28D20B70CEC002D243D /* File.AudioInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28B20B70CEC002D243D /* File.AudioInformation.swift */; };
+		B559D28E20B70CEC002D243D /* File.AudioInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28B20B70CEC002D243D /* File.AudioInformation.swift */; };
+		B559D29020B710C5002D243D /* File.DerivativeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28F20B710C5002D243D /* File.DerivativeKey.swift */; };
+		B559D29120B710C5002D243D /* File.DerivativeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28F20B710C5002D243D /* File.DerivativeKey.swift */; };
+		B559D29220B710C5002D243D /* File.DerivativeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D28F20B710C5002D243D /* File.DerivativeKey.swift */; };
+		B559D29420B72061002D243D /* File+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D29320B72061002D243D /* File+APIStreamableObject.swift */; };
+		B559D29520B72061002D243D /* File+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D29320B72061002D243D /* File+APIStreamableObject.swift */; };
+		B559D29620B72061002D243D /* File+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D29320B72061002D243D /* File+APIStreamableObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -480,6 +495,11 @@
 		B559D27320B4D9B9002D243D /* File.Kind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.Kind.swift; sourceTree = "<group>"; };
 		B559D27720B4DA4B002D243D /* File.MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.MimeType.swift; sourceTree = "<group>"; };
 		B559D27B20B4E15F002D243D /* File.Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.Draft.swift; sourceTree = "<group>"; };
+		B559D28320B70B8F002D243D /* File.Derivative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.Derivative.swift; sourceTree = "<group>"; };
+		B559D28720B70C47002D243D /* File.ImageInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.ImageInformation.swift; sourceTree = "<group>"; };
+		B559D28B20B70CEC002D243D /* File.AudioInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.AudioInformation.swift; sourceTree = "<group>"; };
+		B559D28F20B710C5002D243D /* File.DerivativeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.DerivativeKey.swift; sourceTree = "<group>"; };
+		B559D29320B72061002D243D /* File+APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+APIStreamableObject.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -593,6 +613,10 @@
 				B559D26F20B4D231002D243D /* File.Link.swift */,
 				B559D27320B4D9B9002D243D /* File.Kind.swift */,
 				B559D27720B4DA4B002D243D /* File.MimeType.swift */,
+				B559D28B20B70CEC002D243D /* File.AudioInformation.swift */,
+				B559D28720B70C47002D243D /* File.ImageInformation.swift */,
+				B559D28F20B710C5002D243D /* File.DerivativeKey.swift */,
+				B559D28320B70B8F002D243D /* File.Derivative.swift */,
 				B559D27B20B4E15F002D243D /* File.Draft.swift */,
 				B559D23F20B4BE86002D243D /* Report.swift */,
 				B559D24320B4BE94002D243D /* Report.Reason.swift */,
@@ -710,6 +734,7 @@
 				B559D20720B35C61002D243D /* Post+APIMutableObject.swift */,
 				B559D1FB20B35BFB002D243D /* Post+APIStreamableObject.swift */,
 				B559D20320B35C3C002D243D /* Post+APIActionableObject.swift */,
+				B559D29320B72061002D243D /* File+APIStreamableObject.swift */,
 				B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */,
 				B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */,
 				B559D25720B4C244002D243D /* Presence+APIMutableObject.swift */,
@@ -895,6 +920,7 @@
 				B53C07BD20B33B4900B767ED /* User.Value.swift in Sources */,
 				B559D20820B35C61002D243D /* Post+APIMutableObject.swift in Sources */,
 				B53C07C720B33C9C00B767ED /* RawDecodable.swift in Sources */,
+				B559D28C20B70CEC002D243D /* File.AudioInformation.swift in Sources */,
 				B53C079D20B339D700B767ED /* Hashtag.swift in Sources */,
 				B53C07A920B33A4500B767ED /* User.Counts.swift in Sources */,
 				B53C075420B32CBF00B767ED /* APIResponse.swift in Sources */,
@@ -903,6 +929,7 @@
 				B53C081720B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D320B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06E920B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
+				B559D28820B70C47002D243D /* File.ImageInformation.swift in Sources */,
 				B559D27420B4D9B9002D243D /* File.Kind.swift in Sources */,
 				B559D27020B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24C20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
@@ -926,6 +953,7 @@
 				B53C071520B322D100B767ED /* APIFormat.swift in Sources */,
 				B559D24420B4BE94002D243D /* Report.Reason.swift in Sources */,
 				B53C082820B3531A00B767ED /* APIStreamableObject.swift in Sources */,
+				B559D29020B710C5002D243D /* File.DerivativeKey.swift in Sources */,
 				B53C076C20B32E0300B767ED /* User.swift in Sources */,
 				B53C075820B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */,
 				B559D1FC20B35BFB002D243D /* Post+APIStreamableObject.swift in Sources */,
@@ -937,6 +965,7 @@
 				B53C07E320B33DC900B767ED /* RawContainerType.swift in Sources */,
 				B559D25C20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072620B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
+				B559D29420B72061002D243D /* File+APIStreamableObject.swift in Sources */,
 				B559D23020B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080720B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FD20B3213400B767ED /* APIResponseError.swift in Sources */,
@@ -984,6 +1013,7 @@
 				B559D22C20B3988F002D243D /* Poll.swift in Sources */,
 				B53C077820B337DB00B767ED /* APIObjectRequestable.swift in Sources */,
 				B53C080320B33EF700B767ED /* OembedRich.swift in Sources */,
+				B559D28420B70B8F002D243D /* File.Derivative.swift in Sources */,
 				B53C070920B321F600B767ED /* APIParameterValue.swift in Sources */,
 				B53C07D720B33D3300B767ED /* RawCodable.swift in Sources */,
 			);
@@ -1016,6 +1046,7 @@
 				B53C07BE20B33B4900B767ED /* User.Value.swift in Sources */,
 				B559D20920B35C61002D243D /* Post+APIMutableObject.swift in Sources */,
 				B53C07C820B33C9C00B767ED /* RawDecodable.swift in Sources */,
+				B559D28D20B70CEC002D243D /* File.AudioInformation.swift in Sources */,
 				B53C079E20B339D700B767ED /* Hashtag.swift in Sources */,
 				B53C07AA20B33A4500B767ED /* User.Counts.swift in Sources */,
 				B53C075520B32CBF00B767ED /* APIResponse.swift in Sources */,
@@ -1024,6 +1055,7 @@
 				B53C081820B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D420B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CB20B3066B00B767ED /* API.swift in Sources */,
+				B559D28920B70C47002D243D /* File.ImageInformation.swift in Sources */,
 				B559D27520B4D9B9002D243D /* File.Kind.swift in Sources */,
 				B559D27120B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24D20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
@@ -1047,6 +1079,7 @@
 				B53C071620B322D100B767ED /* APIFormat.swift in Sources */,
 				B559D24520B4BE94002D243D /* Report.Reason.swift in Sources */,
 				B53C082920B3531A00B767ED /* APIStreamableObject.swift in Sources */,
+				B559D29120B710C5002D243D /* File.DerivativeKey.swift in Sources */,
 				B53C076D20B32E0300B767ED /* User.swift in Sources */,
 				B53C075920B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */,
 				B559D1FD20B35BFB002D243D /* Post+APIStreamableObject.swift in Sources */,
@@ -1058,6 +1091,7 @@
 				B53C07E420B33DC900B767ED /* RawContainerType.swift in Sources */,
 				B559D25D20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072720B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
+				B559D29520B72061002D243D /* File+APIStreamableObject.swift in Sources */,
 				B559D23120B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080820B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FE20B3213400B767ED /* APIResponseError.swift in Sources */,
@@ -1105,6 +1139,7 @@
 				B559D22D20B3988F002D243D /* Poll.swift in Sources */,
 				B53C077920B337DB00B767ED /* APIObjectRequestable.swift in Sources */,
 				B53C080420B33EF700B767ED /* OembedRich.swift in Sources */,
+				B559D28520B70B8F002D243D /* File.Derivative.swift in Sources */,
 				B53C070A20B321F600B767ED /* APIParameterValue.swift in Sources */,
 				B53C07D820B33D3300B767ED /* RawCodable.swift in Sources */,
 			);
@@ -1137,6 +1172,7 @@
 				B53C07BF20B33B4900B767ED /* User.Value.swift in Sources */,
 				B559D20A20B35C61002D243D /* Post+APIMutableObject.swift in Sources */,
 				B53C07C920B33C9C00B767ED /* RawDecodable.swift in Sources */,
+				B559D28E20B70CEC002D243D /* File.AudioInformation.swift in Sources */,
 				B53C079F20B339D700B767ED /* Hashtag.swift in Sources */,
 				B53C07AB20B33A4500B767ED /* User.Counts.swift in Sources */,
 				B53C075620B32CBF00B767ED /* APIResponse.swift in Sources */,
@@ -1145,6 +1181,7 @@
 				B53C081920B3461A00B767ED /* Post.Repost.swift in Sources */,
 				B53C07D520B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CC20B3066B00B767ED /* API.swift in Sources */,
+				B559D28A20B70C47002D243D /* File.ImageInformation.swift in Sources */,
 				B559D27620B4D9B9002D243D /* File.Kind.swift in Sources */,
 				B559D27220B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24E20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
@@ -1168,6 +1205,7 @@
 				B53C071720B322D100B767ED /* APIFormat.swift in Sources */,
 				B559D24620B4BE94002D243D /* Report.Reason.swift in Sources */,
 				B53C082A20B3531A00B767ED /* APIStreamableObject.swift in Sources */,
+				B559D29220B710C5002D243D /* File.DerivativeKey.swift in Sources */,
 				B53C076E20B32E0300B767ED /* User.swift in Sources */,
 				B53C075A20B32D2800B767ED /* APIObjectResponse.Data.swift in Sources */,
 				B559D1FE20B35BFB002D243D /* Post+APIStreamableObject.swift in Sources */,
@@ -1179,6 +1217,7 @@
 				B53C07E520B33DC900B767ED /* RawContainerType.swift in Sources */,
 				B559D25E20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072820B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
+				B559D29620B72061002D243D /* File+APIStreamableObject.swift in Sources */,
 				B559D23220B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080920B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FF20B3213400B767ED /* APIResponseError.swift in Sources */,
@@ -1226,6 +1265,7 @@
 				B559D22E20B3988F002D243D /* Poll.swift in Sources */,
 				B53C077A20B337DB00B767ED /* APIObjectRequestable.swift in Sources */,
 				B53C080520B33EF700B767ED /* OembedRich.swift in Sources */,
+				B559D28620B70B8F002D243D /* File.Derivative.swift in Sources */,
 				B53C070B20B321F600B767ED /* APIParameterValue.swift in Sources */,
 				B53C07D920B33D3300B767ED /* RawCodable.swift in Sources */,
 			);

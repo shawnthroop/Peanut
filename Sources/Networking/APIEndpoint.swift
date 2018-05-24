@@ -27,6 +27,10 @@ extension APIEndpoint {
                 path.append("/")
             }
             
+            if component.isEmpty {
+                continue
+            }
+            
             path.append(component.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!)
         }
     }
