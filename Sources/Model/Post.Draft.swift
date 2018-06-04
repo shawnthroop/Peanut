@@ -15,12 +15,13 @@ extension Post {
         public var parseMarkdownLinks: Bool
         public var raw: [Raw] = []
         
-        public init(text: String, replyTo: Post.ID? = nil, isNSFW: Bool = false, parseLinks: Bool = true, parseMarkdownLinks: Bool = true) {
+        public init(text: String, replyTo: Post.ID? = nil, isNSFW: Bool = false, parseLinks: Bool = true, parseMarkdownLinks: Bool = true, raw: [Raw] = []) {
             self.text = text
             self.replyTo = replyTo
             self.isNSFW = isNSFW
             self.parseLinks = parseLinks
             self.parseMarkdownLinks = parseMarkdownLinks
+            self.raw = raw
         }
     }
 }

@@ -184,26 +184,26 @@ private extension File {
 }
 
 
-//private extension KeyedDecodingContainer where K == File.CodingKeys {
-//    func decode(_ type: [File.DerivativeKey: File.Derivative].Type, forKey key: K) throws -> [File.DerivativeKey: File.Derivative] {
-//        let container = try nestedContainer(keyedBy: File.DerivativeKey.self, forKey: key)
-//        var result: [File.DerivativeKey: File.Derivative] = [:]
-//
-//        for k in container.allKeys {
-//            result[k] = try container.decode(File.Derivative.self, forKey: k)
-//        }
-//
-//        return result
-//    }
-//}
-//
-//
-//private extension KeyedEncodingContainer where K == File.CodingKeys {
-//    mutating func encode(_ value: [File.DerivativeKey: File.Derivative], forKey key: K) throws {
-//        var container = nestedContainer(keyedBy: File.DerivativeKey.self, forKey: key)
-//
-//        for (k, v) in value {
-//            try container.encode(v, forKey: k)
-//        }
-//    }
-//}
+private extension KeyedDecodingContainer where K == File.CodingKeys {
+    func decode(_ type: [File.DerivativeKey: File.Derivative].Type, forKey key: K) throws -> [File.DerivativeKey: File.Derivative] {
+        let container = try nestedContainer(keyedBy: File.DerivativeKey.self, forKey: key)
+        var result: [File.DerivativeKey: File.Derivative] = [:]
+
+        for k in container.allKeys {
+            result[k] = try container.decode(File.Derivative.self, forKey: k)
+        }
+
+        return result
+    }
+}
+
+
+private extension KeyedEncodingContainer where K == File.CodingKeys {
+    mutating func encode(_ value: [File.DerivativeKey: File.Derivative], forKey key: K) throws {
+        var container = nestedContainer(keyedBy: File.DerivativeKey.self, forKey: key)
+
+        for (k, v) in value {
+            try container.encode(v, forKey: k)
+        }
+    }
+}
