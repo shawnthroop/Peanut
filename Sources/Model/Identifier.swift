@@ -75,6 +75,19 @@ extension Identifier: APIParameterValue where T.IdentifierValue: APIParameterVal
 }
 
 
+// MARK: AnyDictionaryKey
+
+extension Identifier: AnyDictionaryKey where T.IdentifierValue == String {
+    public init(keyValue: String) {
+        self.init(value: keyValue)
+    }
+    
+    public var keyValue: String {
+        return value
+    }
+}
+
+
 // MARK: - CodingKey
 
 extension Identifier: CodingKey where T.IdentifierValue == String {

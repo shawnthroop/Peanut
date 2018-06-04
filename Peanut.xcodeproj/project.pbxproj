@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B518868020B9EAFB0067C4B2 /* File.ReplacementFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518867F20B9EAFB0067C4B2 /* File.ReplacementFormat.swift */; };
+		B518868120B9EAFB0067C4B2 /* File.ReplacementFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518867F20B9EAFB0067C4B2 /* File.ReplacementFormat.swift */; };
+		B518868220B9EAFB0067C4B2 /* File.ReplacementFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518867F20B9EAFB0067C4B2 /* File.ReplacementFormat.swift */; };
+		B519CFE020BC2F190009E1D9 /* File.Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFDF20BC2F190009E1D9 /* File.Replacement.swift */; };
+		B519CFE120BC2F190009E1D9 /* File.Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFDF20BC2F190009E1D9 /* File.Replacement.swift */; };
+		B519CFE220BC2F190009E1D9 /* File.Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFDF20BC2F190009E1D9 /* File.Replacement.swift */; };
+		B519CFE420BC2FCE0009E1D9 /* Poll.Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFE320BC2FCE0009E1D9 /* Poll.Replacement.swift */; };
+		B519CFE520BC2FCE0009E1D9 /* Poll.Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFE320BC2FCE0009E1D9 /* Poll.Replacement.swift */; };
+		B519CFE620BC2FCE0009E1D9 /* Poll.Replacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFE320BC2FCE0009E1D9 /* Poll.Replacement.swift */; };
+		B519CFE820BC5E7D0009E1D9 /* RawContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFE720BC5E7D0009E1D9 /* RawContent.swift */; };
+		B519CFE920BC5E7D0009E1D9 /* RawContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFE720BC5E7D0009E1D9 /* RawContent.swift */; };
+		B519CFEA20BC5E7D0009E1D9 /* RawContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFE720BC5E7D0009E1D9 /* RawContent.swift */; };
+		B519CFF420BC67070009E1D9 /* RawContentKeyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFF320BC67070009E1D9 /* RawContentKeyDecodable.swift */; };
+		B519CFF520BC67070009E1D9 /* RawContentKeyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFF320BC67070009E1D9 /* RawContentKeyDecodable.swift */; };
+		B519CFF620BC67070009E1D9 /* RawContentKeyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519CFF320BC67070009E1D9 /* RawContentKeyDecodable.swift */; };
+		B5373C8820BAA391003DD580 /* RawDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5373C8720BAA391003DD580 /* RawDecodingError.swift */; };
+		B5373C8920BAA391003DD580 /* RawDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5373C8720BAA391003DD580 /* RawDecodingError.swift */; };
+		B5373C8A20BAA391003DD580 /* RawDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5373C8720BAA391003DD580 /* RawDecodingError.swift */; };
 		B53C06A520B3046E00B767ED /* Peanut.h in Headers */ = {isa = PBXBuildFile; fileRef = B53C06A320B3046E00B767ED /* Peanut.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B53C06C720B3060000B767ED /* Peanut.h in Headers */ = {isa = PBXBuildFile; fileRef = B53C06A320B3046E00B767ED /* Peanut.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B53C06C820B3060000B767ED /* Peanut.h in Headers */ = {isa = PBXBuildFile; fileRef = B53C06A320B3046E00B767ED /* Peanut.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -172,33 +190,9 @@
 		B53C07C120B33B9B00B767ED /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07C020B33B9B00B767ED /* Image.swift */; };
 		B53C07C220B33B9B00B767ED /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07C020B33B9B00B767ED /* Image.swift */; };
 		B53C07C320B33B9B00B767ED /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07C020B33B9B00B767ED /* Image.swift */; };
-		B53C07C720B33C9C00B767ED /* RawDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07C620B33C9C00B767ED /* RawDecodable.swift */; };
-		B53C07C820B33C9C00B767ED /* RawDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07C620B33C9C00B767ED /* RawDecodable.swift */; };
-		B53C07C920B33C9C00B767ED /* RawDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07C620B33C9C00B767ED /* RawDecodable.swift */; };
 		B53C07CB20B33CB400B767ED /* Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07CA20B33CB400B767ED /* Raw.swift */; };
 		B53C07CC20B33CB400B767ED /* Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07CA20B33CB400B767ED /* Raw.swift */; };
 		B53C07CD20B33CB400B767ED /* Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07CA20B33CB400B767ED /* Raw.swift */; };
-		B53C07CF20B33CCD00B767ED /* Raw.Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07CE20B33CCD00B767ED /* Raw.Value.swift */; };
-		B53C07D020B33CCD00B767ED /* Raw.Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07CE20B33CCD00B767ED /* Raw.Value.swift */; };
-		B53C07D120B33CCD00B767ED /* Raw.Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07CE20B33CCD00B767ED /* Raw.Value.swift */; };
-		B53C07D320B33D1B00B767ED /* RawEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07D220B33D1B00B767ED /* RawEncodable.swift */; };
-		B53C07D420B33D1B00B767ED /* RawEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07D220B33D1B00B767ED /* RawEncodable.swift */; };
-		B53C07D520B33D1B00B767ED /* RawEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07D220B33D1B00B767ED /* RawEncodable.swift */; };
-		B53C07D720B33D3300B767ED /* RawCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07D620B33D3300B767ED /* RawCodable.swift */; };
-		B53C07D820B33D3300B767ED /* RawCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07D620B33D3300B767ED /* RawCodable.swift */; };
-		B53C07D920B33D3300B767ED /* RawCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07D620B33D3300B767ED /* RawCodable.swift */; };
-		B53C07DB20B33D5A00B767ED /* Raw.Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07DA20B33D5A00B767ED /* Raw.Container.swift */; };
-		B53C07DC20B33D5A00B767ED /* Raw.Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07DA20B33D5A00B767ED /* Raw.Container.swift */; };
-		B53C07DD20B33D5A00B767ED /* Raw.Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07DA20B33D5A00B767ED /* Raw.Container.swift */; };
-		B53C07DF20B33D8600B767ED /* RawValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07DE20B33D8600B767ED /* RawValueType.swift */; };
-		B53C07E020B33D8600B767ED /* RawValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07DE20B33D8600B767ED /* RawValueType.swift */; };
-		B53C07E120B33D8600B767ED /* RawValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07DE20B33D8600B767ED /* RawValueType.swift */; };
-		B53C07E320B33DC900B767ED /* RawContainerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07E220B33DC900B767ED /* RawContainerType.swift */; };
-		B53C07E420B33DC900B767ED /* RawContainerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07E220B33DC900B767ED /* RawContainerType.swift */; };
-		B53C07E520B33DC900B767ED /* RawContainerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07E220B33DC900B767ED /* RawContainerType.swift */; };
-		B53C07E720B33DEF00B767ED /* RawContainerDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07E620B33DEF00B767ED /* RawContainerDecodable.swift */; };
-		B53C07E820B33DEF00B767ED /* RawContainerDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07E620B33DEF00B767ED /* RawContainerDecodable.swift */; };
-		B53C07E920B33DEF00B767ED /* RawContainerDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07E620B33DEF00B767ED /* RawContainerDecodable.swift */; };
 		B53C07EB20B33E0D00B767ED /* CrossPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07EA20B33E0D00B767ED /* CrossPost.swift */; };
 		B53C07EC20B33E0D00B767ED /* CrossPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07EA20B33E0D00B767ED /* CrossPost.swift */; };
 		B53C07ED20B33E0D00B767ED /* CrossPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07EA20B33E0D00B767ED /* CrossPost.swift */; };
@@ -208,12 +202,9 @@
 		B53C07F320B33E4400B767ED /* OembedValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07F220B33E4400B767ED /* OembedValueType.swift */; };
 		B53C07F420B33E4400B767ED /* OembedValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07F220B33E4400B767ED /* OembedValueType.swift */; };
 		B53C07F520B33E4400B767ED /* OembedValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07F220B33E4400B767ED /* OembedValueType.swift */; };
-		B53C07F720B33EAA00B767ED /* OembedSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07F620B33EAA00B767ED /* OembedSource.swift */; };
-		B53C07F820B33EAA00B767ED /* OembedSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07F620B33EAA00B767ED /* OembedSource.swift */; };
-		B53C07F920B33EAA00B767ED /* OembedSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07F620B33EAA00B767ED /* OembedSource.swift */; };
-		B53C07FB20B33EC800B767ED /* OembedThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FA20B33EC800B767ED /* OembedThumbnail.swift */; };
-		B53C07FC20B33EC800B767ED /* OembedThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FA20B33EC800B767ED /* OembedThumbnail.swift */; };
-		B53C07FD20B33EC800B767ED /* OembedThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FA20B33EC800B767ED /* OembedThumbnail.swift */; };
+		B53C07FB20B33EC800B767ED /* Oembed.Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FA20B33EC800B767ED /* Oembed.Thumbnail.swift */; };
+		B53C07FC20B33EC800B767ED /* Oembed.Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FA20B33EC800B767ED /* Oembed.Thumbnail.swift */; };
+		B53C07FD20B33EC800B767ED /* Oembed.Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FA20B33EC800B767ED /* Oembed.Thumbnail.swift */; };
 		B53C07FF20B33EDF00B767ED /* OembedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FE20B33EDF00B767ED /* OembedPhoto.swift */; };
 		B53C080020B33EDF00B767ED /* OembedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FE20B33EDF00B767ED /* OembedPhoto.swift */; };
 		B53C080120B33EDF00B767ED /* OembedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C07FE20B33EDF00B767ED /* OembedPhoto.swift */; };
@@ -250,6 +241,15 @@
 		B53C083020B353B500B767ED /* User+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C082F20B353B500B767ED /* User+APIStreamableObject.swift */; };
 		B53C083120B353B500B767ED /* User+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C082F20B353B500B767ED /* User+APIStreamableObject.swift */; };
 		B53C083220B353B500B767ED /* User+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C082F20B353B500B767ED /* User+APIStreamableObject.swift */; };
+		B53FE4EB20BF068100DF107B /* AnyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4EA20BF068100DF107B /* AnyDictionary.swift */; };
+		B53FE4EC20BF068100DF107B /* AnyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4EA20BF068100DF107B /* AnyDictionary.swift */; };
+		B53FE4ED20BF068100DF107B /* AnyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4EA20BF068100DF107B /* AnyDictionary.swift */; };
+		B53FE4EF20BF0F8600DF107B /* AnyDictionary.EncodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4EE20BF0F8600DF107B /* AnyDictionary.EncodableValue.swift */; };
+		B53FE4F020BF0F8600DF107B /* AnyDictionary.EncodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4EE20BF0F8600DF107B /* AnyDictionary.EncodableValue.swift */; };
+		B53FE4F120BF0F8600DF107B /* AnyDictionary.EncodableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4EE20BF0F8600DF107B /* AnyDictionary.EncodableValue.swift */; };
+		B53FE4F320BF301400DF107B /* AnyDictionaryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4F220BF301400DF107B /* AnyDictionaryKey.swift */; };
+		B53FE4F420BF301400DF107B /* AnyDictionaryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4F220BF301400DF107B /* AnyDictionaryKey.swift */; };
+		B53FE4F520BF301400DF107B /* AnyDictionaryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FE4F220BF301400DF107B /* AnyDictionaryKey.swift */; };
 		B559D1F420B35B6A002D243D /* User+APIActionableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D1F320B35B6A002D243D /* User+APIActionableObject.swift */; };
 		B559D1F520B35B6A002D243D /* User+APIActionableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D1F320B35B6A002D243D /* User+APIActionableObject.swift */; };
 		B559D1F620B35B6A002D243D /* User+APIActionableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D1F320B35B6A002D243D /* User+APIActionableObject.swift */; };
@@ -367,9 +367,57 @@
 		B559D29420B72061002D243D /* File+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D29320B72061002D243D /* File+APIStreamableObject.swift */; };
 		B559D29520B72061002D243D /* File+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D29320B72061002D243D /* File+APIStreamableObject.swift */; };
 		B559D29620B72061002D243D /* File+APIStreamableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559D29320B72061002D243D /* File+APIStreamableObject.swift */; };
+		B58DA20E20C55C09005E7956 /* Encoder+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58DA20D20C55C09005E7956 /* Encoder+Additions.swift */; };
+		B58DA20F20C55C09005E7956 /* Encoder+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58DA20D20C55C09005E7956 /* Encoder+Additions.swift */; };
+		B58DA21020C55C09005E7956 /* Encoder+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58DA20D20C55C09005E7956 /* Encoder+Additions.swift */; };
+		B5905CEF20C42A79002FF8CD /* OembedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CEE20C42A79002FF8CD /* OembedAudio.swift */; };
+		B5905CF020C42A79002FF8CD /* OembedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CEE20C42A79002FF8CD /* OembedAudio.swift */; };
+		B5905CF120C42A79002FF8CD /* OembedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CEE20C42A79002FF8CD /* OembedAudio.swift */; };
+		B5905CF320C4332D002FF8CD /* ChatSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CF220C4332D002FF8CD /* ChatSettings.swift */; };
+		B5905CF420C4332D002FF8CD /* ChatSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CF220C4332D002FF8CD /* ChatSettings.swift */; };
+		B5905CF520C4332D002FF8CD /* ChatSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CF220C4332D002FF8CD /* ChatSettings.swift */; };
+		B5905CF720C4347E002FF8CD /* ChatSettings.Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CF620C4347E002FF8CD /* ChatSettings.Category.swift */; };
+		B5905CF820C4347E002FF8CD /* ChatSettings.Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CF620C4347E002FF8CD /* ChatSettings.Category.swift */; };
+		B5905CF920C4347E002FF8CD /* ChatSettings.Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CF620C4347E002FF8CD /* ChatSettings.Category.swift */; };
+		B5905CFB20C4410C002FF8CD /* ChannelInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CFA20C4410C002FF8CD /* ChannelInvite.swift */; };
+		B5905CFC20C4410C002FF8CD /* ChannelInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CFA20C4410C002FF8CD /* ChannelInvite.swift */; };
+		B5905CFD20C4410C002FF8CD /* ChannelInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5905CFA20C4410C002FF8CD /* ChannelInvite.swift */; };
+		B594459920BC15A300C2BBAD /* AnyEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594459820BC15A300C2BBAD /* AnyEquatable.swift */; };
+		B594459A20BC15A300C2BBAD /* AnyEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594459820BC15A300C2BBAD /* AnyEquatable.swift */; };
+		B594459B20BC15A300C2BBAD /* AnyEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B594459820BC15A300C2BBAD /* AnyEquatable.swift */; };
+		B5E2EBBB20B7494D001577EF /* File.UploadParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2EBBA20B7494D001577EF /* File.UploadParameters.swift */; };
+		B5E2EBBC20B7494D001577EF /* File.UploadParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2EBBA20B7494D001577EF /* File.UploadParameters.swift */; };
+		B5E2EBBD20B7494D001577EF /* File.UploadParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2EBBA20B7494D001577EF /* File.UploadParameters.swift */; };
+		B5E2EBBF20B74BEB001577EF /* File+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2EBBE20B74BEB001577EF /* File+APIMutableObject.swift */; };
+		B5E2EBC020B74BEB001577EF /* File+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2EBBE20B74BEB001577EF /* File+APIMutableObject.swift */; };
+		B5E2EBC120B74BEB001577EF /* File+APIMutableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2EBBE20B74BEB001577EF /* File+APIMutableObject.swift */; };
+		B5F6185920C305BC00F349E2 /* RawContentValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6185820C305BC00F349E2 /* RawContentValueType.swift */; };
+		B5F6185A20C305BC00F349E2 /* RawContentValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6185820C305BC00F349E2 /* RawContentValueType.swift */; };
+		B5F6185B20C305BC00F349E2 /* RawContentValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6185820C305BC00F349E2 /* RawContentValueType.swift */; };
+		B5F6185D20C348B500F349E2 /* OembedHTML5Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6185C20C348B500F349E2 /* OembedHTML5Video.swift */; };
+		B5F6185E20C348B500F349E2 /* OembedHTML5Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6185C20C348B500F349E2 /* OembedHTML5Video.swift */; };
+		B5F6185F20C348B500F349E2 /* OembedHTML5Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6185C20C348B500F349E2 /* OembedHTML5Video.swift */; };
+		B5F6186120C3496100F349E2 /* OembedHTML5Video.Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186020C3496100F349E2 /* OembedHTML5Video.Source.swift */; };
+		B5F6186220C3496100F349E2 /* OembedHTML5Video.Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186020C3496100F349E2 /* OembedHTML5Video.Source.swift */; };
+		B5F6186320C3496100F349E2 /* OembedHTML5Video.Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186020C3496100F349E2 /* OembedHTML5Video.Source.swift */; };
+		B5F6186520C3666F00F349E2 /* RawUnvalidatedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186420C3666F00F349E2 /* RawUnvalidatedContent.swift */; };
+		B5F6186620C3666F00F349E2 /* RawUnvalidatedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186420C3666F00F349E2 /* RawUnvalidatedContent.swift */; };
+		B5F6186720C3666F00F349E2 /* RawUnvalidatedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186420C3666F00F349E2 /* RawUnvalidatedContent.swift */; };
+		B5F6186D20C3F9BD00F349E2 /* PollNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186C20C3F9BD00F349E2 /* PollNotice.swift */; };
+		B5F6186E20C3F9BD00F349E2 /* PollNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186C20C3F9BD00F349E2 /* PollNotice.swift */; };
+		B5F6186F20C3F9BD00F349E2 /* PollNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6186C20C3F9BD00F349E2 /* PollNotice.swift */; };
+		B5F6187120C3F9DD00F349E2 /* PollNotice.Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6187020C3F9DD00F349E2 /* PollNotice.Option.swift */; };
+		B5F6187220C3F9DD00F349E2 /* PollNotice.Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6187020C3F9DD00F349E2 /* PollNotice.Option.swift */; };
+		B5F6187320C3F9DD00F349E2 /* PollNotice.Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6187020C3F9DD00F349E2 /* PollNotice.Option.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B518867F20B9EAFB0067C4B2 /* File.ReplacementFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.ReplacementFormat.swift; sourceTree = "<group>"; };
+		B519CFDF20BC2F190009E1D9 /* File.Replacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.Replacement.swift; sourceTree = "<group>"; };
+		B519CFE320BC2FCE0009E1D9 /* Poll.Replacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poll.Replacement.swift; sourceTree = "<group>"; };
+		B519CFE720BC5E7D0009E1D9 /* RawContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawContent.swift; sourceTree = "<group>"; };
+		B519CFF320BC67070009E1D9 /* RawContentKeyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawContentKeyDecodable.swift; sourceTree = "<group>"; };
+		B5373C8720BAA391003DD580 /* RawDecodingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawDecodingError.swift; sourceTree = "<group>"; };
 		B53C06A020B3046E00B767ED /* Peanut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Peanut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53C06A320B3046E00B767ED /* Peanut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Peanut.h; sourceTree = "<group>"; };
 		B53C06AE20B3047D00B767ED /* Peanut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Peanut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -435,20 +483,11 @@
 		B53C07B820B33B2E00B767ED /* User.Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.Values.swift; sourceTree = "<group>"; };
 		B53C07BC20B33B4900B767ED /* User.Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.Value.swift; sourceTree = "<group>"; };
 		B53C07C020B33B9B00B767ED /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		B53C07C620B33C9C00B767ED /* RawDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawDecodable.swift; sourceTree = "<group>"; };
 		B53C07CA20B33CB400B767ED /* Raw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raw.swift; sourceTree = "<group>"; };
-		B53C07CE20B33CCD00B767ED /* Raw.Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raw.Value.swift; sourceTree = "<group>"; };
-		B53C07D220B33D1B00B767ED /* RawEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawEncodable.swift; sourceTree = "<group>"; };
-		B53C07D620B33D3300B767ED /* RawCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawCodable.swift; sourceTree = "<group>"; };
-		B53C07DA20B33D5A00B767ED /* Raw.Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raw.Container.swift; sourceTree = "<group>"; };
-		B53C07DE20B33D8600B767ED /* RawValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawValueType.swift; sourceTree = "<group>"; };
-		B53C07E220B33DC900B767ED /* RawContainerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawContainerType.swift; sourceTree = "<group>"; };
-		B53C07E620B33DEF00B767ED /* RawContainerDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawContainerDecodable.swift; sourceTree = "<group>"; };
 		B53C07EA20B33E0D00B767ED /* CrossPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPost.swift; sourceTree = "<group>"; };
 		B53C07EE20B33E2600B767ED /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		B53C07F220B33E4400B767ED /* OembedValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedValueType.swift; sourceTree = "<group>"; };
-		B53C07F620B33EAA00B767ED /* OembedSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedSource.swift; sourceTree = "<group>"; };
-		B53C07FA20B33EC800B767ED /* OembedThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedThumbnail.swift; sourceTree = "<group>"; };
+		B53C07FA20B33EC800B767ED /* Oembed.Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oembed.Thumbnail.swift; sourceTree = "<group>"; };
 		B53C07FE20B33EDF00B767ED /* OembedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedPhoto.swift; sourceTree = "<group>"; };
 		B53C080220B33EF700B767ED /* OembedRich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedRich.swift; sourceTree = "<group>"; };
 		B53C080620B33F0F00B767ED /* Oembed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oembed.swift; sourceTree = "<group>"; };
@@ -461,6 +500,9 @@
 		B53C082320B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Credentials+APIAuthorizationRequestable.swift"; sourceTree = "<group>"; };
 		B53C082720B3531A00B767ED /* APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIStreamableObject.swift; sourceTree = "<group>"; };
 		B53C082F20B353B500B767ED /* User+APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+APIStreamableObject.swift"; sourceTree = "<group>"; };
+		B53FE4EA20BF068100DF107B /* AnyDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDictionary.swift; sourceTree = "<group>"; };
+		B53FE4EE20BF0F8600DF107B /* AnyDictionary.EncodableValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDictionary.EncodableValue.swift; sourceTree = "<group>"; };
+		B53FE4F220BF301400DF107B /* AnyDictionaryKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDictionaryKey.swift; sourceTree = "<group>"; };
 		B559D1F320B35B6A002D243D /* User+APIActionableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+APIActionableObject.swift"; sourceTree = "<group>"; };
 		B559D1F720B35B8D002D243D /* APIActionableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIActionableObject.swift; sourceTree = "<group>"; };
 		B559D1FB20B35BFB002D243D /* Post+APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+APIStreamableObject.swift"; sourceTree = "<group>"; };
@@ -500,6 +542,20 @@
 		B559D28B20B70CEC002D243D /* File.AudioInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.AudioInformation.swift; sourceTree = "<group>"; };
 		B559D28F20B710C5002D243D /* File.DerivativeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.DerivativeKey.swift; sourceTree = "<group>"; };
 		B559D29320B72061002D243D /* File+APIStreamableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+APIStreamableObject.swift"; sourceTree = "<group>"; };
+		B58DA20D20C55C09005E7956 /* Encoder+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encoder+Additions.swift"; sourceTree = "<group>"; };
+		B5905CEE20C42A79002FF8CD /* OembedAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedAudio.swift; sourceTree = "<group>"; };
+		B5905CF220C4332D002FF8CD /* ChatSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSettings.swift; sourceTree = "<group>"; };
+		B5905CF620C4347E002FF8CD /* ChatSettings.Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSettings.Category.swift; sourceTree = "<group>"; };
+		B5905CFA20C4410C002FF8CD /* ChannelInvite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelInvite.swift; sourceTree = "<group>"; };
+		B594459820BC15A300C2BBAD /* AnyEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEquatable.swift; sourceTree = "<group>"; };
+		B5E2EBBA20B7494D001577EF /* File.UploadParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.UploadParameters.swift; sourceTree = "<group>"; };
+		B5E2EBBE20B74BEB001577EF /* File+APIMutableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+APIMutableObject.swift"; sourceTree = "<group>"; };
+		B5F6185820C305BC00F349E2 /* RawContentValueType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawContentValueType.swift; sourceTree = "<group>"; };
+		B5F6185C20C348B500F349E2 /* OembedHTML5Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedHTML5Video.swift; sourceTree = "<group>"; };
+		B5F6186020C3496100F349E2 /* OembedHTML5Video.Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OembedHTML5Video.Source.swift; sourceTree = "<group>"; };
+		B5F6186420C3666F00F349E2 /* RawUnvalidatedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawUnvalidatedContent.swift; sourceTree = "<group>"; };
+		B5F6186C20C3F9BD00F349E2 /* PollNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollNotice.swift; sourceTree = "<group>"; };
+		B5F6187020C3F9DD00F349E2 /* PollNotice.Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollNotice.Option.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -606,6 +662,7 @@
 				B559D23320B399B2002D243D /* Poll.Deadline.swift */,
 				B559D23720B39A11002D243D /* Poll.Option.swift */,
 				B559D23B20B39A8A002D243D /* Poll.Response.swift */,
+				B519CFE320BC2FCE0009E1D9 /* Poll.Replacement.swift */,
 				B559D26720B4C61B002D243D /* Poll.Draft.swift */,
 				B559D24F20B4C0F7002D243D /* Presence.swift */,
 				B559D25320B4C19F002D243D /* Presence.Status.swift */,
@@ -617,6 +674,9 @@
 				B559D28720B70C47002D243D /* File.ImageInformation.swift */,
 				B559D28F20B710C5002D243D /* File.DerivativeKey.swift */,
 				B559D28320B70B8F002D243D /* File.Derivative.swift */,
+				B5E2EBBA20B7494D001577EF /* File.UploadParameters.swift */,
+				B519CFDF20BC2F190009E1D9 /* File.Replacement.swift */,
+				B518867F20B9EAFB0067C4B2 /* File.ReplacementFormat.swift */,
 				B559D27B20B4E15F002D243D /* File.Draft.swift */,
 				B559D23F20B4BE86002D243D /* Report.swift */,
 				B559D24320B4BE94002D243D /* Report.Reason.swift */,
@@ -677,6 +737,7 @@
 			children = (
 				B53C072D20B325D200B767ED /* Optional+Additions.swift */,
 				B53C078320B338A700B767ED /* String+SurrogarPair.swift */,
+				B58DA20D20C55C09005E7956 /* Encoder+Additions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -696,16 +757,28 @@
 			isa = PBXGroup;
 			children = (
 				B53C07C520B33C7800B767ED /* Protocols */,
+				B594459820BC15A300C2BBAD /* AnyEquatable.swift */,
+				B53FE4EA20BF068100DF107B /* AnyDictionary.swift */,
+				B53FE4F220BF301400DF107B /* AnyDictionaryKey.swift */,
+				B53FE4EE20BF0F8600DF107B /* AnyDictionary.EncodableValue.swift */,
 				B53C07CA20B33CB400B767ED /* Raw.swift */,
-				B53C07CE20B33CCD00B767ED /* Raw.Value.swift */,
-				B53C07DA20B33D5A00B767ED /* Raw.Container.swift */,
+				B519CFE720BC5E7D0009E1D9 /* RawContent.swift */,
+				B5F6186420C3666F00F349E2 /* RawUnvalidatedContent.swift */,
+				B5373C8720BAA391003DD580 /* RawDecodingError.swift */,
+				B5905CFA20C4410C002FF8CD /* ChannelInvite.swift */,
 				B53C07EA20B33E0D00B767ED /* CrossPost.swift */,
 				B53C07EE20B33E2600B767ED /* Language.swift */,
 				B53C080620B33F0F00B767ED /* Oembed.swift */,
-				B53C07F620B33EAA00B767ED /* OembedSource.swift */,
-				B53C07FA20B33EC800B767ED /* OembedThumbnail.swift */,
+				B53C07FA20B33EC800B767ED /* Oembed.Thumbnail.swift */,
 				B53C07FE20B33EDF00B767ED /* OembedPhoto.swift */,
 				B53C080220B33EF700B767ED /* OembedRich.swift */,
+				B5F6185C20C348B500F349E2 /* OembedHTML5Video.swift */,
+				B5F6186020C3496100F349E2 /* OembedHTML5Video.Source.swift */,
+				B5905CEE20C42A79002FF8CD /* OembedAudio.swift */,
+				B5F6186C20C3F9BD00F349E2 /* PollNotice.swift */,
+				B5F6187020C3F9DD00F349E2 /* PollNotice.Option.swift */,
+				B5905CF220C4332D002FF8CD /* ChatSettings.swift */,
+				B5905CF620C4347E002FF8CD /* ChatSettings.Category.swift */,
 			);
 			path = Raw;
 			sourceTree = "<group>";
@@ -713,12 +786,8 @@
 		B53C07C520B33C7800B767ED /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				B53C07D620B33D3300B767ED /* RawCodable.swift */,
-				B53C07C620B33C9C00B767ED /* RawDecodable.swift */,
-				B53C07D220B33D1B00B767ED /* RawEncodable.swift */,
-				B53C07DE20B33D8600B767ED /* RawValueType.swift */,
-				B53C07E220B33DC900B767ED /* RawContainerType.swift */,
-				B53C07E620B33DEF00B767ED /* RawContainerDecodable.swift */,
+				B519CFF320BC67070009E1D9 /* RawContentKeyDecodable.swift */,
+				B5F6185820C305BC00F349E2 /* RawContentValueType.swift */,
 				B53C07F220B33E4400B767ED /* OembedValueType.swift */,
 			);
 			path = Protocols;
@@ -734,6 +803,7 @@
 				B559D20720B35C61002D243D /* Post+APIMutableObject.swift */,
 				B559D1FB20B35BFB002D243D /* Post+APIStreamableObject.swift */,
 				B559D20320B35C3C002D243D /* Post+APIActionableObject.swift */,
+				B5E2EBBE20B74BEB001577EF /* File+APIMutableObject.swift */,
 				B559D29320B72061002D243D /* File+APIStreamableObject.swift */,
 				B559D26320B4C5C5002D243D /* Poll+APIMutableObject.swift */,
 				B559D25F20B4C524002D243D /* Poll+APIStreamableObject.swift */,
@@ -833,7 +903,7 @@
 		B53C069520B3046100B767ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 				TargetAttributes = {
 					B53C069F20B3046E00B767ED = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -897,12 +967,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53C07CF20B33CCD00B767ED /* Raw.Value.swift in Sources */,
-				B53C07DB20B33D5A00B767ED /* Raw.Container.swift in Sources */,
 				B53C07EB20B33E0D00B767ED /* CrossPost.swift in Sources */,
 				B53C070D20B3223D00B767ED /* APIParameters.swift in Sources */,
+				B519CFE820BC5E7D0009E1D9 /* RawContent.swift in Sources */,
 				B53C079520B3399D00B767ED /* Mention.swift in Sources */,
-				B53C07F720B33EAA00B767ED /* OembedSource.swift in Sources */,
 				B53C076820B32DCE00B767ED /* APIAuthorizationResponse.Storage.swift in Sources */,
 				B53C073F20B327B900B767ED /* Channel.swift in Sources */,
 				B53C078020B3388E00B767ED /* Content.swift in Sources */,
@@ -915,11 +983,11 @@
 				B559D27820B4DA4B002D243D /* File.MimeType.swift in Sources */,
 				B559D26420B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080B20B341CD00B767ED /* Post.swift in Sources */,
-				B53C07E720B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
 				B53C074320B3297E00B767ED /* Client.swift in Sources */,
 				B53C07BD20B33B4900B767ED /* User.Value.swift in Sources */,
 				B559D20820B35C61002D243D /* Post+APIMutableObject.swift in Sources */,
-				B53C07C720B33C9C00B767ED /* RawDecodable.swift in Sources */,
+				B5373C8820BAA391003DD580 /* RawDecodingError.swift in Sources */,
+				B519CFF420BC67070009E1D9 /* RawContentKeyDecodable.swift in Sources */,
 				B559D28C20B70CEC002D243D /* File.AudioInformation.swift in Sources */,
 				B53C079D20B339D700B767ED /* Hashtag.swift in Sources */,
 				B53C07A920B33A4500B767ED /* User.Counts.swift in Sources */,
@@ -927,9 +995,9 @@
 				B53C07B120B33AAC00B767ED /* User.Badge.swift in Sources */,
 				B53C083020B353B500B767ED /* User+APIStreamableObject.swift in Sources */,
 				B53C081720B3461A00B767ED /* Post.Repost.swift in Sources */,
-				B53C07D320B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06E920B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
 				B559D28820B70C47002D243D /* File.ImageInformation.swift in Sources */,
+				B5F6186D20C3F9BD00F349E2 /* PollNotice.swift in Sources */,
 				B559D27420B4D9B9002D243D /* File.Kind.swift in Sources */,
 				B559D27020B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24C20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
@@ -937,16 +1005,22 @@
 				B559D20C20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081B20B34B5A00B767ED /* Authorization.swift in Sources */,
 				B53C07EF20B33E2600B767ED /* Language.swift in Sources */,
+				B5F6186120C3496100F349E2 /* OembedHTML5Video.Source.swift in Sources */,
+				B519CFE020BC2F190009E1D9 /* File.Replacement.swift in Sources */,
+				B594459920BC15A300C2BBAD /* AnyEquatable.swift in Sources */,
 				B559D27C20B4E15F002D243D /* File.Draft.swift in Sources */,
 				B53C06E320B31A8400B767ED /* Identifier.swift in Sources */,
+				B5905CEF20C42A79002FF8CD /* OembedAudio.swift in Sources */,
 				B53C074720B329C500B767ED /* Client.Scope.swift in Sources */,
 				B53C073720B3278100B767ED /* APIMarker.swift in Sources */,
 				B53C075020B32C8200B767ED /* APIMeta.swift in Sources */,
 				B53C078420B338A700B767ED /* String+SurrogarPair.swift in Sources */,
 				B559D22820B35F4B002D243D /* Permissions.Read.swift in Sources */,
+				B5F6185D20C348B500F349E2 /* OembedHTML5Video.swift in Sources */,
+				B5F6187120C3F9DD00F349E2 /* PollNotice.Option.swift in Sources */,
 				B559D1F420B35B6A002D243D /* User+APIActionableObject.swift in Sources */,
 				B559D1F820B35B8E002D243D /* APIActionableObject.swift in Sources */,
-				B53C07FB20B33EC800B767ED /* OembedThumbnail.swift in Sources */,
+				B53C07FB20B33EC800B767ED /* Oembed.Thumbnail.swift in Sources */,
 				B53C07FF20B33EDF00B767ED /* OembedPhoto.swift in Sources */,
 				B53C080F20B345B600B767ED /* Post.Counts.swift in Sources */,
 				B559D21020B35DFD002D243D /* Channel.Status.swift in Sources */,
@@ -962,10 +1036,10 @@
 				B53C06F120B31EEF00B767ED /* UniquelyIdentifiable.swift in Sources */,
 				B559D23820B39A11002D243D /* Poll.Option.swift in Sources */,
 				B53C06F520B31F5C00B767ED /* APIStatusCode.swift in Sources */,
-				B53C07E320B33DC900B767ED /* RawContainerType.swift in Sources */,
 				B559D25C20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072620B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
 				B559D29420B72061002D243D /* File+APIStreamableObject.swift in Sources */,
+				B5E2EBBB20B7494D001577EF /* File.UploadParameters.swift in Sources */,
 				B559D23020B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080720B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FD20B3213400B767ED /* APIResponseError.swift in Sources */,
@@ -977,34 +1051,44 @@
 				B559D23C20B39A8A002D243D /* Poll.Response.swift in Sources */,
 				B53C076420B32DB400B767ED /* APIAuthorizationResponse.Token.swift in Sources */,
 				B53C07A120B339F300B767ED /* Entities.swift in Sources */,
-				B53C07DF20B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22420B35F2A002D243D /* Permissions.Write.swift in Sources */,
 				B559D24020B4BE86002D243D /* Report.swift in Sources */,
+				B5F6185920C305BC00F349E2 /* RawContentValueType.swift in Sources */,
+				B5905CF720C4347E002FF8CD /* ChatSettings.Category.swift in Sources */,
 				B559D26C20B4D0AC002D243D /* File.swift in Sources */,
+				B58DA20E20C55C09005E7956 /* Encoder+Additions.swift in Sources */,
 				B53C071D20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077420B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C072E20B325D200B767ED /* Optional+Additions.swift in Sources */,
 				B53C06CA20B3066B00B767ED /* API.swift in Sources */,
 				B559D25020B4C0F7002D243D /* Presence.swift in Sources */,
+				B5E2EBBF20B74BEB001577EF /* File+APIMutableObject.swift in Sources */,
 				B559D25820B4C244002D243D /* Presence+APIMutableObject.swift in Sources */,
 				B559D26820B4C61B002D243D /* Poll.Draft.swift in Sources */,
 				B53C075C20B32D4300B767ED /* APIObjectResponse.swift in Sources */,
+				B5905CFB20C4410C002FF8CD /* ChannelInvite.swift in Sources */,
 				B53C071920B3231A00B767ED /* APIDecodingCotext.swift in Sources */,
 				B53C079920B339B600B767ED /* Link.swift in Sources */,
+				B53FE4EF20BF0F8600DF107B /* AnyDictionary.EncodableValue.swift in Sources */,
 				B53C071120B3228B00B767ED /* APIPayload.swift in Sources */,
 				B53C078D20B3395800B767ED /* Content.Range.swift in Sources */,
 				B559D26020B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */,
+				B519CFE420BC2FCE0009E1D9 /* Poll.Replacement.swift in Sources */,
 				B53C082420B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift in Sources */,
 				B53C07CB20B33CB400B767ED /* Raw.swift in Sources */,
 				B53C06F920B320D200B767ED /* APIError.swift in Sources */,
+				B518868020B9EAFB0067C4B2 /* File.ReplacementFormat.swift in Sources */,
+				B53FE4EB20BF068100DF107B /* AnyDictionary.swift in Sources */,
 				B53C072A20B3251800B767ED /* APIPagination.swift in Sources */,
 				B559D23420B399B2002D243D /* Poll.Deadline.swift in Sources */,
 				B559D24820B4BEF6002D243D /* APIReportResponse.swift in Sources */,
+				B5F6186520C3666F00F349E2 /* RawUnvalidatedContent.swift in Sources */,
 				B53C07AD20B33A5300B767ED /* User.Status.swift in Sources */,
 				B53C077020B32EA600B767ED /* Source.swift in Sources */,
 				B53C07C120B33B9B00B767ED /* Image.swift in Sources */,
 				B53C072120B323F900B767ED /* APIEndpoint.swift in Sources */,
 				B53C082020B34BBA00B767ED /* APIMutableObject.swift in Sources */,
+				B53FE4F320BF301400DF107B /* AnyDictionaryKey.swift in Sources */,
 				B53C079120B3398500B767ED /* Entity.swift in Sources */,
 				B559D25420B4C19F002D243D /* Presence.Status.swift in Sources */,
 				B559D21C20B35EE1002D243D /* Permissions.swift in Sources */,
@@ -1015,7 +1099,7 @@
 				B53C080320B33EF700B767ED /* OembedRich.swift in Sources */,
 				B559D28420B70B8F002D243D /* File.Derivative.swift in Sources */,
 				B53C070920B321F600B767ED /* APIParameterValue.swift in Sources */,
-				B53C07D720B33D3300B767ED /* RawCodable.swift in Sources */,
+				B5905CF320C4332D002FF8CD /* ChatSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1023,12 +1107,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53C07D020B33CCD00B767ED /* Raw.Value.swift in Sources */,
-				B53C07DC20B33D5A00B767ED /* Raw.Container.swift in Sources */,
 				B53C07EC20B33E0D00B767ED /* CrossPost.swift in Sources */,
 				B53C070E20B3223D00B767ED /* APIParameters.swift in Sources */,
+				B519CFE920BC5E7D0009E1D9 /* RawContent.swift in Sources */,
 				B53C079620B3399D00B767ED /* Mention.swift in Sources */,
-				B53C07F820B33EAA00B767ED /* OembedSource.swift in Sources */,
 				B53C076920B32DCE00B767ED /* APIAuthorizationResponse.Storage.swift in Sources */,
 				B53C074020B327B900B767ED /* Channel.swift in Sources */,
 				B53C078120B3388E00B767ED /* Content.swift in Sources */,
@@ -1041,11 +1123,11 @@
 				B559D27920B4DA4B002D243D /* File.MimeType.swift in Sources */,
 				B559D26520B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080C20B341CD00B767ED /* Post.swift in Sources */,
-				B53C07E820B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
 				B53C074420B3297E00B767ED /* Client.swift in Sources */,
 				B53C07BE20B33B4900B767ED /* User.Value.swift in Sources */,
 				B559D20920B35C61002D243D /* Post+APIMutableObject.swift in Sources */,
-				B53C07C820B33C9C00B767ED /* RawDecodable.swift in Sources */,
+				B5373C8920BAA391003DD580 /* RawDecodingError.swift in Sources */,
+				B519CFF520BC67070009E1D9 /* RawContentKeyDecodable.swift in Sources */,
 				B559D28D20B70CEC002D243D /* File.AudioInformation.swift in Sources */,
 				B53C079E20B339D700B767ED /* Hashtag.swift in Sources */,
 				B53C07AA20B33A4500B767ED /* User.Counts.swift in Sources */,
@@ -1053,9 +1135,9 @@
 				B53C07B220B33AAC00B767ED /* User.Badge.swift in Sources */,
 				B53C083120B353B500B767ED /* User+APIStreamableObject.swift in Sources */,
 				B53C081820B3461A00B767ED /* Post.Repost.swift in Sources */,
-				B53C07D420B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CB20B3066B00B767ED /* API.swift in Sources */,
 				B559D28920B70C47002D243D /* File.ImageInformation.swift in Sources */,
+				B5F6186E20C3F9BD00F349E2 /* PollNotice.swift in Sources */,
 				B559D27520B4D9B9002D243D /* File.Kind.swift in Sources */,
 				B559D27120B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24D20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
@@ -1063,16 +1145,22 @@
 				B559D20D20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081C20B34B5A00B767ED /* Authorization.swift in Sources */,
 				B53C07F020B33E2600B767ED /* Language.swift in Sources */,
+				B5F6186220C3496100F349E2 /* OembedHTML5Video.Source.swift in Sources */,
+				B519CFE120BC2F190009E1D9 /* File.Replacement.swift in Sources */,
+				B594459A20BC15A300C2BBAD /* AnyEquatable.swift in Sources */,
 				B559D27D20B4E15F002D243D /* File.Draft.swift in Sources */,
 				B53C06EA20B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
+				B5905CF020C42A79002FF8CD /* OembedAudio.swift in Sources */,
 				B53C074820B329C500B767ED /* Client.Scope.swift in Sources */,
 				B53C073820B3278100B767ED /* APIMarker.swift in Sources */,
 				B53C075120B32C8200B767ED /* APIMeta.swift in Sources */,
 				B53C078520B338A700B767ED /* String+SurrogarPair.swift in Sources */,
 				B559D22920B35F4B002D243D /* Permissions.Read.swift in Sources */,
+				B5F6185E20C348B500F349E2 /* OembedHTML5Video.swift in Sources */,
+				B5F6187220C3F9DD00F349E2 /* PollNotice.Option.swift in Sources */,
 				B559D1F520B35B6A002D243D /* User+APIActionableObject.swift in Sources */,
 				B559D1F920B35B8E002D243D /* APIActionableObject.swift in Sources */,
-				B53C07FC20B33EC800B767ED /* OembedThumbnail.swift in Sources */,
+				B53C07FC20B33EC800B767ED /* Oembed.Thumbnail.swift in Sources */,
 				B53C080020B33EDF00B767ED /* OembedPhoto.swift in Sources */,
 				B53C081020B345B600B767ED /* Post.Counts.swift in Sources */,
 				B559D21120B35DFD002D243D /* Channel.Status.swift in Sources */,
@@ -1088,10 +1176,10 @@
 				B53C06F220B31EEF00B767ED /* UniquelyIdentifiable.swift in Sources */,
 				B559D23920B39A11002D243D /* Poll.Option.swift in Sources */,
 				B53C06F620B31F5C00B767ED /* APIStatusCode.swift in Sources */,
-				B53C07E420B33DC900B767ED /* RawContainerType.swift in Sources */,
 				B559D25D20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072720B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
 				B559D29520B72061002D243D /* File+APIStreamableObject.swift in Sources */,
+				B5E2EBBC20B7494D001577EF /* File.UploadParameters.swift in Sources */,
 				B559D23120B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080820B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FE20B3213400B767ED /* APIResponseError.swift in Sources */,
@@ -1103,34 +1191,44 @@
 				B559D23D20B39A8A002D243D /* Poll.Response.swift in Sources */,
 				B53C076520B32DB400B767ED /* APIAuthorizationResponse.Token.swift in Sources */,
 				B53C07A220B339F300B767ED /* Entities.swift in Sources */,
-				B53C07E020B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22520B35F2A002D243D /* Permissions.Write.swift in Sources */,
 				B559D24120B4BE86002D243D /* Report.swift in Sources */,
+				B5F6185A20C305BC00F349E2 /* RawContentValueType.swift in Sources */,
+				B5905CF820C4347E002FF8CD /* ChatSettings.Category.swift in Sources */,
 				B559D26D20B4D0AC002D243D /* File.swift in Sources */,
+				B58DA20F20C55C09005E7956 /* Encoder+Additions.swift in Sources */,
 				B53C071E20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077520B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C072F20B325D200B767ED /* Optional+Additions.swift in Sources */,
 				B53C06E620B31AA100B767ED /* Identifiable.swift in Sources */,
 				B559D25120B4C0F7002D243D /* Presence.swift in Sources */,
+				B5E2EBC020B74BEB001577EF /* File+APIMutableObject.swift in Sources */,
 				B559D25920B4C244002D243D /* Presence+APIMutableObject.swift in Sources */,
 				B559D26920B4C61B002D243D /* Poll.Draft.swift in Sources */,
 				B53C075D20B32D4300B767ED /* APIObjectResponse.swift in Sources */,
+				B5905CFC20C4410C002FF8CD /* ChannelInvite.swift in Sources */,
 				B53C071A20B3231A00B767ED /* APIDecodingCotext.swift in Sources */,
 				B53C079A20B339B600B767ED /* Link.swift in Sources */,
+				B53FE4F020BF0F8600DF107B /* AnyDictionary.EncodableValue.swift in Sources */,
 				B53C071220B3228B00B767ED /* APIPayload.swift in Sources */,
 				B53C078E20B3395800B767ED /* Content.Range.swift in Sources */,
 				B559D26120B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */,
+				B519CFE520BC2FCE0009E1D9 /* Poll.Replacement.swift in Sources */,
 				B53C082520B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift in Sources */,
 				B53C07CC20B33CB400B767ED /* Raw.swift in Sources */,
 				B53C06FA20B320D200B767ED /* APIError.swift in Sources */,
+				B518868120B9EAFB0067C4B2 /* File.ReplacementFormat.swift in Sources */,
+				B53FE4EC20BF068100DF107B /* AnyDictionary.swift in Sources */,
 				B53C072B20B3251800B767ED /* APIPagination.swift in Sources */,
 				B559D23520B399B2002D243D /* Poll.Deadline.swift in Sources */,
 				B559D24920B4BEF6002D243D /* APIReportResponse.swift in Sources */,
+				B5F6186620C3666F00F349E2 /* RawUnvalidatedContent.swift in Sources */,
 				B53C07AE20B33A5300B767ED /* User.Status.swift in Sources */,
 				B53C077120B32EA600B767ED /* Source.swift in Sources */,
 				B53C07C220B33B9B00B767ED /* Image.swift in Sources */,
 				B53C072220B323F900B767ED /* APIEndpoint.swift in Sources */,
 				B53C082120B34BBA00B767ED /* APIMutableObject.swift in Sources */,
+				B53FE4F420BF301400DF107B /* AnyDictionaryKey.swift in Sources */,
 				B53C079220B3398500B767ED /* Entity.swift in Sources */,
 				B559D25520B4C19F002D243D /* Presence.Status.swift in Sources */,
 				B559D21D20B35EE1002D243D /* Permissions.swift in Sources */,
@@ -1141,7 +1239,7 @@
 				B53C080420B33EF700B767ED /* OembedRich.swift in Sources */,
 				B559D28520B70B8F002D243D /* File.Derivative.swift in Sources */,
 				B53C070A20B321F600B767ED /* APIParameterValue.swift in Sources */,
-				B53C07D820B33D3300B767ED /* RawCodable.swift in Sources */,
+				B5905CF420C4332D002FF8CD /* ChatSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1149,12 +1247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53C07D120B33CCD00B767ED /* Raw.Value.swift in Sources */,
-				B53C07DD20B33D5A00B767ED /* Raw.Container.swift in Sources */,
 				B53C07ED20B33E0D00B767ED /* CrossPost.swift in Sources */,
 				B53C070F20B3223D00B767ED /* APIParameters.swift in Sources */,
+				B519CFEA20BC5E7D0009E1D9 /* RawContent.swift in Sources */,
 				B53C079720B3399D00B767ED /* Mention.swift in Sources */,
-				B53C07F920B33EAA00B767ED /* OembedSource.swift in Sources */,
 				B53C076A20B32DCE00B767ED /* APIAuthorizationResponse.Storage.swift in Sources */,
 				B53C074120B327B900B767ED /* Channel.swift in Sources */,
 				B53C078220B3388E00B767ED /* Content.swift in Sources */,
@@ -1167,11 +1263,11 @@
 				B559D27A20B4DA4B002D243D /* File.MimeType.swift in Sources */,
 				B559D26620B4C5C5002D243D /* Poll+APIMutableObject.swift in Sources */,
 				B53C080D20B341CD00B767ED /* Post.swift in Sources */,
-				B53C07E920B33DEF00B767ED /* RawContainerDecodable.swift in Sources */,
 				B53C074520B3297E00B767ED /* Client.swift in Sources */,
 				B53C07BF20B33B4900B767ED /* User.Value.swift in Sources */,
 				B559D20A20B35C61002D243D /* Post+APIMutableObject.swift in Sources */,
-				B53C07C920B33C9C00B767ED /* RawDecodable.swift in Sources */,
+				B5373C8A20BAA391003DD580 /* RawDecodingError.swift in Sources */,
+				B519CFF620BC67070009E1D9 /* RawContentKeyDecodable.swift in Sources */,
 				B559D28E20B70CEC002D243D /* File.AudioInformation.swift in Sources */,
 				B53C079F20B339D700B767ED /* Hashtag.swift in Sources */,
 				B53C07AB20B33A4500B767ED /* User.Counts.swift in Sources */,
@@ -1179,9 +1275,9 @@
 				B53C07B320B33AAC00B767ED /* User.Badge.swift in Sources */,
 				B53C083220B353B500B767ED /* User+APIStreamableObject.swift in Sources */,
 				B53C081920B3461A00B767ED /* Post.Repost.swift in Sources */,
-				B53C07D520B33D1B00B767ED /* RawEncodable.swift in Sources */,
 				B53C06CC20B3066B00B767ED /* API.swift in Sources */,
 				B559D28A20B70C47002D243D /* File.ImageInformation.swift in Sources */,
+				B5F6186F20C3F9BD00F349E2 /* PollNotice.swift in Sources */,
 				B559D27620B4D9B9002D243D /* File.Kind.swift in Sources */,
 				B559D27220B4D231002D243D /* File.Link.swift in Sources */,
 				B559D24E20B4BFAD002D243D /* Report+APIRequestable.swift in Sources */,
@@ -1189,16 +1285,22 @@
 				B559D20E20B35C7A002D243D /* Post.Draft.swift in Sources */,
 				B53C081D20B34B5A00B767ED /* Authorization.swift in Sources */,
 				B53C07F120B33E2600B767ED /* Language.swift in Sources */,
+				B5F6186320C3496100F349E2 /* OembedHTML5Video.Source.swift in Sources */,
+				B519CFE220BC2F190009E1D9 /* File.Replacement.swift in Sources */,
+				B594459B20BC15A300C2BBAD /* AnyEquatable.swift in Sources */,
 				B559D27E20B4E15F002D243D /* File.Draft.swift in Sources */,
 				B53C06EB20B31B6400B767ED /* UniqueIdentifier.swift in Sources */,
+				B5905CF120C42A79002FF8CD /* OembedAudio.swift in Sources */,
 				B53C074920B329C500B767ED /* Client.Scope.swift in Sources */,
 				B53C073920B3278100B767ED /* APIMarker.swift in Sources */,
 				B53C075220B32C8200B767ED /* APIMeta.swift in Sources */,
 				B53C078620B338A700B767ED /* String+SurrogarPair.swift in Sources */,
 				B559D22A20B35F4B002D243D /* Permissions.Read.swift in Sources */,
+				B5F6185F20C348B500F349E2 /* OembedHTML5Video.swift in Sources */,
+				B5F6187320C3F9DD00F349E2 /* PollNotice.Option.swift in Sources */,
 				B559D1F620B35B6A002D243D /* User+APIActionableObject.swift in Sources */,
 				B559D1FA20B35B8E002D243D /* APIActionableObject.swift in Sources */,
-				B53C07FD20B33EC800B767ED /* OembedThumbnail.swift in Sources */,
+				B53C07FD20B33EC800B767ED /* Oembed.Thumbnail.swift in Sources */,
 				B53C080120B33EDF00B767ED /* OembedPhoto.swift in Sources */,
 				B53C081120B345B600B767ED /* Post.Counts.swift in Sources */,
 				B559D21220B35DFD002D243D /* Channel.Status.swift in Sources */,
@@ -1214,10 +1316,10 @@
 				B53C06F320B31EEF00B767ED /* UniquelyIdentifiable.swift in Sources */,
 				B559D23A20B39A11002D243D /* Poll.Option.swift in Sources */,
 				B53C06F720B31F5C00B767ED /* APIStatusCode.swift in Sources */,
-				B53C07E520B33DC900B767ED /* RawContainerType.swift in Sources */,
 				B559D25E20B4C25A002D243D /* Presence+APIStreamableObject.swift in Sources */,
 				B53C072820B324CA00B767ED /* APIDefaultParametersProvider.swift in Sources */,
 				B559D29620B72061002D243D /* File+APIStreamableObject.swift in Sources */,
+				B5E2EBBD20B7494D001577EF /* File.UploadParameters.swift in Sources */,
 				B559D23220B39907002D243D /* Poll.Duration.swift in Sources */,
 				B53C080920B33F0F00B767ED /* Oembed.swift in Sources */,
 				B53C06FF20B3213400B767ED /* APIResponseError.swift in Sources */,
@@ -1229,34 +1331,44 @@
 				B559D23E20B39A8A002D243D /* Poll.Response.swift in Sources */,
 				B53C076620B32DB400B767ED /* APIAuthorizationResponse.Token.swift in Sources */,
 				B53C07A320B339F300B767ED /* Entities.swift in Sources */,
-				B53C07E120B33D8600B767ED /* RawValueType.swift in Sources */,
 				B559D22620B35F2A002D243D /* Permissions.Write.swift in Sources */,
 				B559D24220B4BE86002D243D /* Report.swift in Sources */,
+				B5F6185B20C305BC00F349E2 /* RawContentValueType.swift in Sources */,
+				B5905CF920C4347E002FF8CD /* ChatSettings.Category.swift in Sources */,
 				B559D26E20B4D0AC002D243D /* File.swift in Sources */,
+				B58DA21020C55C09005E7956 /* Encoder+Additions.swift in Sources */,
 				B53C071F20B3233A00B767ED /* APIEncodingContext.swift in Sources */,
 				B53C077620B337C800B767ED /* APIRequestable.swift in Sources */,
 				B53C073020B325D200B767ED /* Optional+Additions.swift in Sources */,
 				B53C06E720B31AA100B767ED /* Identifiable.swift in Sources */,
 				B559D25220B4C0F7002D243D /* Presence.swift in Sources */,
+				B5E2EBC120B74BEB001577EF /* File+APIMutableObject.swift in Sources */,
 				B559D25A20B4C244002D243D /* Presence+APIMutableObject.swift in Sources */,
 				B559D26A20B4C61B002D243D /* Poll.Draft.swift in Sources */,
 				B53C075E20B32D4300B767ED /* APIObjectResponse.swift in Sources */,
+				B5905CFD20C4410C002FF8CD /* ChannelInvite.swift in Sources */,
 				B53C071B20B3231A00B767ED /* APIDecodingCotext.swift in Sources */,
 				B53C079B20B339B600B767ED /* Link.swift in Sources */,
+				B53FE4F120BF0F8600DF107B /* AnyDictionary.EncodableValue.swift in Sources */,
 				B53C071320B3228B00B767ED /* APIPayload.swift in Sources */,
 				B53C078F20B3395800B767ED /* Content.Range.swift in Sources */,
 				B559D26220B4C524002D243D /* Poll+APIStreamableObject.swift in Sources */,
+				B519CFE620BC2FCE0009E1D9 /* Poll.Replacement.swift in Sources */,
 				B53C082620B34C0800B767ED /* Credentials+APIAuthorizationRequestable.swift in Sources */,
 				B53C07CD20B33CB400B767ED /* Raw.swift in Sources */,
 				B53C06FB20B320D200B767ED /* APIError.swift in Sources */,
+				B518868220B9EAFB0067C4B2 /* File.ReplacementFormat.swift in Sources */,
+				B53FE4ED20BF068100DF107B /* AnyDictionary.swift in Sources */,
 				B53C072C20B3251800B767ED /* APIPagination.swift in Sources */,
 				B559D23620B399B2002D243D /* Poll.Deadline.swift in Sources */,
 				B559D24A20B4BEF6002D243D /* APIReportResponse.swift in Sources */,
+				B5F6186720C3666F00F349E2 /* RawUnvalidatedContent.swift in Sources */,
 				B53C07AF20B33A5300B767ED /* User.Status.swift in Sources */,
 				B53C077220B32EA600B767ED /* Source.swift in Sources */,
 				B53C07C320B33B9B00B767ED /* Image.swift in Sources */,
 				B53C072320B323F900B767ED /* APIEndpoint.swift in Sources */,
 				B53C082220B34BBA00B767ED /* APIMutableObject.swift in Sources */,
+				B53FE4F520BF301400DF107B /* AnyDictionaryKey.swift in Sources */,
 				B53C079320B3398500B767ED /* Entity.swift in Sources */,
 				B559D25620B4C19F002D243D /* Presence.Status.swift in Sources */,
 				B559D21E20B35EE1002D243D /* Permissions.swift in Sources */,
@@ -1267,7 +1379,7 @@
 				B53C080520B33EF700B767ED /* OembedRich.swift in Sources */,
 				B559D28620B70B8F002D243D /* File.Derivative.swift in Sources */,
 				B53C070B20B321F600B767ED /* APIParameterValue.swift in Sources */,
-				B53C07D920B33D3300B767ED /* RawCodable.swift in Sources */,
+				B5905CF520C4332D002FF8CD /* ChatSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1277,13 +1389,65 @@
 		B53C069920B3046100B767ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		B53C069A20B3046100B767ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
@@ -1321,7 +1485,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1403,7 +1567,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;

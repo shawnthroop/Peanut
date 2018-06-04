@@ -96,17 +96,23 @@ private extension Dictionary where Key == String, Value == String {
 private extension APIPayload {
     func add(to request: inout URLRequest) {
         let contentType: String
+        let body: Data
         
         switch self {
         case .json(let data):
-            request.httpBody = data
             contentType = "application/json"
+            body = data
             
         case .urlEncodedForm(let data):
-            request.httpBody = data
             contentType = "application/x-www-form-urlencoded"
+            body = data
+            
+        case .multipartForm(let data, let boundary):
+            contentType = "multipart/form-data; boundary=\(boundary)"
+            body = data
         }
         
         request.addValue(contentType, forHTTPHeaderField: "Content-Type")
+        request.httpBody = body
     }
 }

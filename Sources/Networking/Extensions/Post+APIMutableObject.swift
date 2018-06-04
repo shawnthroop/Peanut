@@ -7,7 +7,7 @@
 
 extension Post: APIMutableObject {
     
-    public enum Mutation: Hashable {
+    public enum Mutation: Equatable {
         case publish(Draft, updatePersonalStreamMarker: Bool)
         case delete(Post.ID)
     }

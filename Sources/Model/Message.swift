@@ -66,11 +66,7 @@ extension Message: Codable {
         try container.encodeIfPresent(replyTo, forKey: .replyTo)
         try container.encodeIfPresent(thread, forKey: .thread)
         try container.encodeIfPresent(user, forKey: .user)
-        
-        if isDeleted {
-            try container.encode(true, forKey: .isDeleted)
-        }
-        
+        try container.encode(isDeleted, forKey: .isDeleted, where: { $0 == true })
         try container.encodeIfPresent(content, forKey: .content)
         try container.encode(isSticky, forKey: .isSticky)
         try container.encode(source, forKey: .source)

@@ -7,34 +7,37 @@
 
 extension File {
     
-    public struct Draft: Equatable {
+    public struct Draft: Equatable, Codable {
         public var type: String
         public var kind: Kind
         public var name: String
         public var isPublic: Bool
         public var mimeType: MimeType?
-        public var content: Data?
-        public var sha256: String?
+        public var raw: [Raw]
         
-        public init(type: String, kind: Kind, name: String, isPublic: Bool, mimeType: MimeType?, content: Data?, sha256: String?) {
+        public init(type: String, kind: Kind, name: String, isPublic: Bool, mimeType: MimeType?, raw: [Raw]) {
             self.type = type
             self.kind = kind
             self.name = name
             self.isPublic = isPublic
             self.mimeType = mimeType
-            self.content = content
-            self.sha256 = sha256
+            self.raw = raw
+        }
+        
+        public init(type: String, mimeType: MimeType, name: String, isPublic: Bool = false, raw: [Raw] = []) {
+            self.init(type: type, kind: mimeType.kind, name: name, isPublic: isPublic, mimeType: mimeType, raw: raw)
         }
     }
 }
 
 
-extension File.Draft {
-    static func jpg(_ data: Data, type: String, name: String, isPublic: Bool, sha256: String? = nil) -> File.Draft {
-        return File.Draft(type: type, kind: .image, name: name, isPublic: isPublic, mimeType: .jpg, content: data, sha256: sha256)
-    }
-    
-    static func png(_ data: Data, type: String, name: String, isPublic: Bool, sha256: String? = nil) -> File.Draft {
-        return File.Draft(type: type, kind: .image, name: name, isPublic: isPublic, mimeType: .png, content: data, sha256: sha256)
+private extension File.Draft {
+    enum CodingKeys: String, CodingKey {
+        case type
+        case kind
+        case name
+        case isPublic = "is_public"
+        case mimeType = "mime_type"
+        case raw
     }
 }

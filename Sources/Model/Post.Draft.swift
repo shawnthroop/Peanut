@@ -7,12 +7,13 @@
 
 extension Post {
     
-    public struct Draft: Hashable {
+    public struct Draft: Equatable {
         public var text: String
         public var replyTo: Post.ID?
         public var isNSFW: Bool
         public var parseLinks: Bool
         public var parseMarkdownLinks: Bool
+        public var raw: [Raw] = []
         
         public init(text: String, replyTo: Post.ID? = nil, isNSFW: Bool = false, parseLinks: Bool = true, parseMarkdownLinks: Bool = true) {
             self.text = text
@@ -30,18 +31,10 @@ extension Post.Draft: Encodable {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(text, forKey: .text)
         try container.encodeIfPresent(replyTo, forKey: .replyTo)
-        
-        if isNSFW {
-            try container.encode(true, forKey: .isNSFW)
-        }
-        
-        if !parseLinks {
-            try container.encode(false, forKey: .parseLinks)
-        }
-        
-        if !parseMarkdownLinks {
-            try container.encode(false, forKey: .parseMarkdownLinks)
-        }
+        try container.encode(isNSFW, forKey: .isNSFW, where: { $0 == true })
+        try container.encode(parseLinks, forKey: .parseLinks, where: { $0 == false })
+        try container.encode(parseMarkdownLinks, forKey: .parseMarkdownLinks, where: { $0 == false })
+        try container.encode(raw, forKey: .raw, where: { $0.isEmpty == false })
     }
 }
 
@@ -53,5 +46,6 @@ private extension Post.Draft {
         case isNSFW             = "is_nsfw"
         case parseLinks         = "entities.parse_links"
         case parseMarkdownLinks = "entities.parse_markdown_links"
+        case raw
     }
 }

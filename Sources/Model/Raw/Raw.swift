@@ -7,14 +7,11 @@
 
 public struct Raw: Equatable {
     public var type: Identifier<Raw>
-    public var value: Value
+    public var content: RawContent
     
-    private let additional: Container
-    
-    public init(unvalidatedType type: Identifier<Raw>, rawValue: [String: Any]) {
+    public init(type: Identifier<Raw>, content: RawContent) {
         self.type = type
-        self.value = .other
-        self.additional = Raw.Container(rawValue: rawValue)
+        self.content = content
     }
 }
 
@@ -24,60 +21,161 @@ extension Raw: Identifiable {
 }
 
 
-extension Raw: RawContainerType {
-    public func decode(_ type: Bool.Type, forKey key: Raw.ContainerKey) -> Bool? {
-        return additional.decode(type, forKey: key)
+extension Raw: Codable {
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        type = try container.decode(Identifier<Raw>.self, forKey: .type)
+        
+        func decodeContent<T: Decodable>(_ type: T.Type) throws -> T {
+            return try container.decode(type, forKey: .content)
+        }
+                
+        switch type {
+        case .channelInvite:
+            content = try .channelInvite(decodeContent(ChannelInvite.self))
+            
+        case .chatSettings:
+            content = try .chatSettings(decodeContent(ChatSettings.self))
+            
+        case .crossPost:
+            content = try .crossPost(decodeContent(CrossPost.self))
+            
+        case .language:
+            content = try .language(decodeContent(Language.self))
+            
+        case .oembed, .oembedMetadata:
+            switch try decodeContent(Oembed.self) {
+            case .photo(let v):
+                content = .oembedPhoto(v)
+            case .rich(let v):
+                content = .oembedRich(v)
+            case .html5Video(let v):
+                content = .oembedHTML5Video(v)
+            case .audio(let v):
+                content = .oembedAudio(v)
+            }
+            
+        case .pollNotice:
+            content = try .pollNotice(decodeContent(PollNotice.self))
+            
+        default:
+            let unvalidatedContent = try container.decode(RawUnvalidatedContent.self, forKey: .content)
+            
+            if unvalidatedContent.isEmpty {
+                content = .none
+                
+            } else {
+                content = .unvalidated(unvalidatedContent)
+            }
+        }
     }
     
-    public func decode(_ type: Int.Type, forKey key: Raw.ContainerKey) -> Int? {
-        return additional.decode(type, forKey: key)
-    }
-    
-    public func decode(_ type: Double.Type, forKey key: Raw.ContainerKey) -> Double? {
-        return additional.decode(type, forKey: key)
-    }
-    
-    public func decode(_ type: String.Type, forKey key: Raw.ContainerKey) -> String? {
-        return additional.decode(type, forKey: key)
-    }
-    
-    public func decode(_ type: [Bool].Type, forKey key: Raw.ContainerKey) -> [Bool]? {
-        return additional.decode(type, forKey: key)
-    }
-    
-    public func decode(_ type: [Int].Type, forKey key: Raw.ContainerKey) -> [Int]? {
-        return additional.decode(type, forKey: key)
-    }
-    
-    public func decode(_ type: [Double].Type, forKey key: Raw.ContainerKey) -> [Double]? {
-        return additional.decode(type, forKey: key)
-    }
-    
-    public func decode(_ type: [String].Type, forKey key: Raw.ContainerKey) -> [String]? {
-        return additional.decode(type, forKey: key)
-    }
-    
-    public func nestedContainer(forKey key: Raw.ContainerKey) -> RawContainerType? {
-        return additional.nestedContainer(forKey: key)
-    }
-    
-    public func nestedContainers(forKey key: Raw.ContainerKey) -> [RawContainerType]? {
-        return additional.nestedContainers(forKey: key)
+    public func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(type, forKey: .type)
+        
+        if content != .none {
+            try container.encode(content, forKey: .content)
+        }
     }
 }
 
 
-extension Raw: Codable {
-    public init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        let values = try container.nestedContainer(keyedBy: ContainerKey.self, forKey: .value)
+private extension RawContent {
+    var validDecodableKeys: Set<Identifier<RawContent>>? {
+        return rawContentKeyDecodableType?.validDecodableKeys
+    }
+    
+    private var rawContentKeyDecodableType: RawContentKeyDecodable.Type? {
+        switch self {
+        case .channelInvite:
+            return ChannelInvite.self
+        case .chatSettings:
+            return ChatSettings.self
+        case .crossPost:
+            return CrossPost.self
+        case .language:
+            return Language.self
+        case .oembedPhoto:
+            return OembedPhoto.self
+        case .oembedRich:
+            return OembedRich.self
+        case .oembedHTML5Video:
+            return OembedHTML5Video.self
+        case .oembedAudio:
+            return OembedAudio.self
+        case .pollNotice:
+            return PollNotice.self
+            
+        case .unvalidated, .none:
+            return nil
+        }
+    }
+}
+
+
+extension Collection where Element == Raw {
+    public func contains(type identifier: Identifier<Raw>) -> Bool {
+        return contains(where: { $0.type == identifier })
+    }
+}
+
+//extension Array where Element == Raw {
+//    public func contains(type identifier: Identifier<Raw>) -> Bool {
+//        return contains(where: { $0.type == identifier })
+//    }
+//
+//    public var language: Language? {
+//        return first(as: { $0.language })
+//    }
+//
+//    public var crossPost: CrossPost? {
+//        return first(as: { $0.crossPost })
+//    }
+//
+//    public var photo: OembedPhoto? {
+//        return first(as: { $0.photo })
+//    }
+//
+//    public var rich: OembedRich? {
+//        return first(as: { $0.rich })
+//    }
+//
+//    public func first(with identifier: Identifier<Raw>) -> Raw? {
+//        return first(where: { $0.type == identifier })
+//    }
+//
+//    public func first<T: RawValueType>(as transformed: (Raw) -> T?) -> T? {
+//        for raw in self {
+//            if let value = transformed(raw) {
+//                return value
+//            }
+//        }
+//
+//        return nil
+//    }
+//}
+
+
+private extension Raw {
+    enum CodingKeys: String, CodingKey {
+        case type
+        case content            = "value"
+        case unvalidatedContent
+    }
+}
+
+
+extension KeyedDecodingContainer {
+    public func decode(_ type: [Raw].Type, forKey key: K) throws -> [Raw] {
+        var container = try nestedUnkeyedContainer(forKey: key)
+        var result: [Raw] = []
         
-        let decodedType = try container.decode(Identifier<Raw>.self, forKey: .type)
-        let decodedValue: Value?
-        
-        func decodeValue<T: RawCodable>(_ type: T.Type) throws -> T? {
+        while container.isAtEnd == false {
+            var raw: Raw?
+            
             do {
-                return try T(from: values)
+                raw = try container.decode(Raw.self)
                 
             } catch let error as DecodingError {
                 guard case .keyNotFound = error else {
@@ -85,101 +183,23 @@ extension Raw: Codable {
                 }
                 
             } catch {
-                throw error
+                guard error is RawDecodingError else {
+                    throw error
+                }
             }
             
-            return nil
-        }
-        
-        switch decodedType {
-        case .language:
-            decodedValue = try decodeValue(Language.self).map { .language($0) }
-            
-        case .oembed, .oembedMetadata:
-            decodedValue = try decodeValue(Oembed.self).map { .oembed($0) }
-            
-        case .crossPost:
-            decodedValue = try decodeValue(CrossPost.self).map { .crossPost($0) }
-            
-        default:
-            decodedValue = nil
-        }
-        
-        type = decodedType
-        value = decodedValue ?? .other
-        
-        let supportedKeys = value.supportedKeys ?? []
-        additional = try Container(from: values, filter: { !supportedKeys.contains($0) })
-    }
-    
-    public func encode(to encoder: Encoder) throws {
-        var container = encoder.container(keyedBy: Raw.CodingKeys.self)
-        var values = container.nestedContainer(keyedBy: Raw.ContainerKey.self, forKey: .value)
-        
-        try container.encode(type, forKey: .type)
-        
-        if let value = encodableValue {
-            try value.encode(to: &values)
-        }
-        
-        try additional.encode(to: &values)
-    }
-}
-
-
-extension Array where Element == Raw {
-    public func contains(type identifier: Identifier<Raw>) -> Bool {
-        return contains(where: { $0.type == identifier })
-    }
-    
-    public var language: Language? {
-        return first(as: { $0.language })
-    }
-    
-    public var crossPost: CrossPost? {
-        return first(as: { $0.crossPost })
-    }
-    
-    public var photo: OembedPhoto? {
-        return first(as: { $0.photo })
-    }
-    
-    public var rich: OembedRich? {
-        return first(as: { $0.rich })
-    }
-    
-    public func first(with identifier: Identifier<Raw>) -> Raw? {
-        return first(where: { $0.type == identifier })
-    }
-    
-    public func first<T: RawValueType>(as transformed: (Raw) -> T?) -> T? {
-        for raw in self {
-            if let value = transformed(raw) {
-                return value
+            if let raw = raw {
+                result.append(raw)
+            } else {
+                let _  = try container.decode(EmptyDecodableValue.self)
             }
         }
         
-        return nil
+        return result
     }
 }
 
 
-private extension Raw {
-    enum CodingKeys: CodingKey {
-        case type
-        case value
-    }
-    
-    var encodableValue: RawEncodable? {
-        switch value {
-        case .crossPost(let value):
-            return value
-        case .language(let value):
-            return value
-        case .oembed(let value):
-            return value
-        case .other:
-            return nil
-        }
-    }
-}
+/// Workaround described here: https://bugs.swift.org/browse/SR-5953
+private struct EmptyDecodableValue: Decodable {}
+

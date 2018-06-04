@@ -23,7 +23,7 @@ public struct APIEndpoint<Object> {
 extension APIEndpoint {
     mutating func append(_ pathComponents: String...) {
         for component in pathComponents {
-            if path.last != "/" {
+            if path.last != "/" && component.first != "/" {
                 path.append("/")
             }
             

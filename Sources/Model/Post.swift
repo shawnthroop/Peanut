@@ -10,7 +10,7 @@ public struct Post: Equatable {
     public var pagination: Identifier<Post>?
     public var thread: Identifier<Post>?
     public var replyTo: Identifier<Post>?
-    public var user: User
+    public var user: User.Value
     public var isDeleted: Bool
     public var content: Content?
     public var repostOf: Repost?
@@ -20,7 +20,7 @@ public struct Post: Equatable {
     public var counts: Post.Counts?
     public var createdAt: Date
     
-    init(id: Identifier<Post>, pagination: Identifier<Post>?, thread: Identifier<Post>?, replyTo: Identifier<Post>?, user: User, isDeleted: Bool, content: Content?, repostOf: Repost, raw: [Raw], source: Source, status: Post.Status, counts: Post.Counts?, createdAt: Date) {
+    init(id: Identifier<Post>, pagination: Identifier<Post>?, thread: Identifier<Post>?, replyTo: Identifier<Post>?, user: User.Value, isDeleted: Bool, content: Content?, repostOf: Repost, raw: [Raw], source: Source, status: Post.Status, counts: Post.Counts?, createdAt: Date) {
         self.id = id
         self.pagination = pagination
         self.thread = thread
@@ -66,7 +66,7 @@ extension Post: Codable {
         pagination = try container.decodeIfPresent(Identifier<Post>.self, forKey: .pagination)
         thread = try container.decodeIfPresent(Identifier<Post>.self, forKey: .thread)
         replyTo = try container.decodeIfPresent(Identifier<Post>.self, forKey: .replyTo)
-        user = try container.decode(User.self, forKey: .user)
+        user = try container.decode(User.Value.self, forKey: .user)
         isDeleted = try container.decodeIfPresent(Bool.self, forKey: .isDeleted) ?? false
         content = isDeleted ? nil : try container.decode(Content.self, forKey: .content)
         repostOf = try container.decodeIfPresent(Post.Repost.self, forKey: .repostOf)
@@ -91,11 +91,7 @@ extension Post: Codable {
         
         try container.encodeIfPresent(content, forKey: .content)
         try container.encodeIfPresent(repostOf, forKey: .repostOf)
-        
-        if !raw.isEmpty {
-            try container.encode(raw, forKey: .raw)
-        }
-        
+        try container.encode(raw, forKey: .raw)
         try status.encode(to: encoder)
         try container.encodeIfPresent(counts, forKey: .counts)
         try container.encode(createdAt, forKey: .createdAt)

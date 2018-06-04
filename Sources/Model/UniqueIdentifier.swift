@@ -55,3 +55,10 @@ extension UniqueIdentifier: APIParameterValue {
         return rawValue
     }
 }
+
+
+extension UniqueIdentifier: CustomStringConvertible {
+    public var description: String {
+        return "UniqueIdentifier(\(uniqueValue))"
+    }
+}
